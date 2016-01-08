@@ -1,0 +1,8 @@
+#VIP表								
+#id	VIP等级	购买需花费的RMB	Vip图片名称	副本金币增长N倍	副本钻石获取概率增长N倍	商店手动刷新次数	副本经验加成（填写10,表示经验增加10%）	每日领取礼包（填写礼包ID）
+int	int	int	string	float	float	int	float	int
+id	VipGrade	ConsumeRMB	VipIcon	GlodAdd	DiamondAddProbability	ShopRefreshTimes	ExpAdd	GiftID
+1	1	0		2		20	10	101
+2	2	0		2.5	2	30	20	102
+3	3	0		3	2.5	40	30	103
+4	4	0		4	3	50	50	104

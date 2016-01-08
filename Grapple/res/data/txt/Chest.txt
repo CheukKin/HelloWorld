@@ -1,0 +1,16 @@
+#宝箱表						
+#id	宝箱图标	宝箱开启后的图标	宝箱介绍	宝箱名	子宝箱ID（涵盖宝箱里面的物品）	执行次数（取范围随机值）
+int	string	string	string	string	int	int
+id	Icon	Icon1	describe	Achest	SubChest	RunTime
+1	baoxiang-mu	baoxiang-muopen	有几率获得白色套装	木宝箱	1	4
+2	baoxiang-tong	baoxiang-tongopen	有几率获得绿色套装	铜宝箱	2	4
+3	baoxiang-tie	baoxiang-tieopen	有几率获得蓝色套装	铁宝箱	3	4
+4	baoxiang-yin	baoxiang-yinopen	有几率获得紫色套装	银宝箱	4	4
+5	baoxiang-jin	baoxiang-jinopen	有几率获得橙色套装	金宝箱	5	4
+6	baoxiang-huoyan	baoxiang-huoyanopen	有几率获得火属性橙色套装	火焰宝箱	6	4
+7	baoxiang-heilong	baoxiang-heilongopen	有几率获得风属性橙色套装	黑龙宝箱	7	4
+8	baoxiang-bingshuang	baoxiang-bingshuangopen	有几率获得冰属性橙色套装	冰霜宝箱	8	4
+9	baoxiang-jin	baoxiang-jinopen			9	1
+10	baoxiang-huoyan	baoxiang-huoyanopen			10	1
+11	baoxiang-heilong	baoxiang-heilongopen			11	1
+12	baoxiang-bingshuang	baoxiang-bingshuangopen			12	1

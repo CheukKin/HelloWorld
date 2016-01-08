@@ -1,0 +1,9 @@
+#元素技能信息							
+#ID	图片名称	技能名称	技能介绍	技能的图片	克制元素属性ID	星级需求	克制效果（对克制单位额外造成百分比伤害）
+int	string	string	string	string	int	string	string
+atrTypes	iconName	skillName	skillDes	skillPicName	restrainElement	StarNeed	Effect
+1	tubiao-feng	风之力	对火属性单位额外造成	hyjn-htj	3	4#5	10#20
+2	tubiao-mu	木之力	对冰属性单位额外造成	hyjn-htj	5	4#5	10#20
+3	tubiao-huo	火之力	对木属性单位额外造成	hyjn-htj	2	4#5	10#20
+4	tubiao-lei	雷之力	对风属性单位额外造成	hyjn-htj	1	4#5	10#20
+5	tubiao-bing	冰之力	对雷属性单位额外造成	hyjn-htj	4	4#5	10#20

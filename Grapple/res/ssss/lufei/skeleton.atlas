@@ -1,0 +1,391 @@
+
+skeleton.png
+size: 1024,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+bei/lufei-biaoqing
+  rotate: false
+  xy: 264, 7
+  size: 76, 94
+  orig: 76, 98
+  offset: 0, 4
+  index: -1
+bei/lufei-maozi
+  rotate: false
+  xy: 159, 204
+  size: 67, 80
+  orig: 67, 80
+  offset: 0, 0
+  index: -1
+bei/lufei-quantounei
+  rotate: true
+  xy: 954, 351
+  size: 26, 32
+  orig: 26, 32
+  offset: 0, 0
+  index: -1
+bei/lufei-quantouwai
+  rotate: true
+  xy: 703, 35
+  size: 24, 32
+  orig: 29, 42
+  offset: 0, 4
+  index: -1
+bei/lufei-toufa1
+  rotate: false
+  xy: 480, 263
+  size: 100, 103
+  orig: 100, 103
+  offset: 0, 0
+  index: -1
+bei/lufei-weidai
+  rotate: false
+  xy: 527, 2
+  size: 56, 46
+  orig: 60, 63
+  offset: 3, 2
+  index: -1
+bei/lufei-yifuwai
+  rotate: false
+  xy: 443, 160
+  size: 73, 90
+  orig: 73, 90
+  offset: 0, 0
+  index: -1
+bei/quantouda
+  rotate: false
+  xy: 228, 368
+  size: 273, 142
+  orig: 273, 142
+  offset: 0, 0
+  index: -1
+bei/quantouda2
+  rotate: false
+  xy: 503, 368
+  size: 273, 142
+  orig: 273, 142
+  offset: 0, 0
+  index: -1
+bei/quantouhei1
+  rotate: false
+  xy: 2, 286
+  size: 224, 224
+  orig: 250, 243
+  offset: 14, 12
+  index: -1
+bei/quantouhei3
+  rotate: false
+  xy: 778, 482
+  size: 215, 28
+  orig: 215, 38
+  offset: 0, 6
+  index: -1
+bei/quantouhei_L
+  rotate: false
+  xy: 608, 124
+  size: 69, 63
+  orig: 71, 68
+  offset: 2, 0
+  index: -1
+bei/quantouhei_R
+  rotate: false
+  xy: 527, 50
+  size: 70, 56
+  orig: 74, 65
+  offset: 4, 3
+  index: -1
+bei/quantouheixuying
+  rotate: false
+  xy: 228, 252
+  size: 250, 114
+  orig: 250, 123
+  offset: 0, 9
+  index: -1
+biaoqing/ce1
+  rotate: false
+  xy: 700, 173
+  size: 72, 88
+  orig: 72, 93
+  offset: 0, 3
+  index: -1
+biaoqing/ce2
+  rotate: true
+  xy: 607, 189
+  size: 72, 91
+  orig: 72, 93
+  offset: 0, 0
+  index: -1
+biaoqing/zheng1
+  rotate: false
+  xy: 778, 377
+  size: 86, 103
+  orig: 86, 103
+  offset: 0, 0
+  index: -1
+biaoqing/zheng4
+  rotate: false
+  xy: 582, 263
+  size: 86, 103
+  orig: 86, 103
+  offset: 0, 0
+  index: -1
+biaoqing/zheng5
+  rotate: false
+  xy: 866, 377
+  size: 86, 103
+  orig: 86, 103
+  offset: 0, 0
+  index: -1
+biaoqing/zheng6
+  rotate: false
+  xy: 670, 263
+  size: 86, 103
+  orig: 86, 103
+  offset: 0, 0
+  index: -1
+biaoqing/zheng7
+  rotate: false
+  xy: 159, 99
+  size: 86, 103
+  orig: 86, 103
+  offset: 0, 0
+  index: -1
+biaoqing/zheng8
+  rotate: true
+  xy: 159, 11
+  size: 86, 103
+  orig: 86, 103
+  offset: 0, 0
+  index: -1
+biaoqing/zheng9
+  rotate: false
+  xy: 247, 103
+  size: 86, 103
+  orig: 86, 103
+  offset: 0, 0
+  index: -1
+ce/lufei-kua
+  rotate: true
+  xy: 665, 40
+  size: 48, 36
+  orig: 51, 36
+  offset: 2, 0
+  index: -1
+ce/lufei-maozi
+  rotate: true
+  xy: 859, 282
+  size: 47, 76
+  orig: 47, 78
+  offset: 0, 0
+  index: -1
+ce/lufei-quantouL
+  rotate: false
+  xy: 703, 61
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+ce/lufei-quantouR
+  rotate: false
+  xy: 750, 93
+  size: 27, 33
+  orig: 27, 33
+  offset: 0, 0
+  index: -1
+ce/lufei-shengzi
+  rotate: false
+  xy: 758, 279
+  size: 43, 87
+  orig: 43, 87
+  offset: 0, 0
+  index: -1
+ce/lufei-shoubiL
+  rotate: false
+  xy: 504, 26
+  size: 21, 74
+  orig: 23, 76
+  offset: 0, 0
+  index: -1
+ce/lufei-shoubiR
+  rotate: true
+  xy: 608, 90
+  size: 32, 69
+  orig: 32, 73
+  offset: 0, 0
+  index: -1
+ce/lufei-tuiL
+  rotate: true
+  xy: 228, 208
+  size: 42, 108
+  orig: 42, 108
+  offset: 0, 0
+  index: -1
+ce/lufei-tuiR
+  rotate: false
+  xy: 954, 379
+  size: 32, 101
+  orig: 33, 101
+  offset: 0, 0
+  index: -1
+ce/lufei-xiuziL1
+  rotate: true
+  xy: 774, 170
+  size: 32, 56
+  orig: 36, 56
+  offset: 4, 0
+  index: -1
+ce/lufei-xiuziL2
+  rotate: true
+  xy: 995, 482
+  size: 28, 26
+  orig: 31, 27
+  offset: 0, 0
+  index: -1
+ce/lufei-xiuziR1
+  rotate: false
+  xy: 988, 360
+  size: 33, 53
+  orig: 34, 53
+  offset: 1, 0
+  index: -1
+ce/lufei-xiuziR2
+  rotate: false
+  xy: 779, 102
+  size: 23, 25
+  orig: 23, 29
+  offset: 0, 0
+  index: -1
+ce/lufei-xuying
+  rotate: false
+  xy: 679, 128
+  size: 89, 43
+  orig: 89, 56
+  offset: 0, 7
+  index: -1
+ce/lufei-xuying2
+  rotate: false
+  xy: 431, 102
+  size: 89, 56
+  orig: 89, 56
+  offset: 0, 0
+  index: -1
+ce/lufei-yifudi
+  rotate: true
+  xy: 679, 91
+  size: 35, 69
+  orig: 35, 71
+  offset: 0, 0
+  index: -1
+ce/lufei_biaoqing
+  rotate: false
+  xy: 430, 9
+  size: 72, 91
+  orig: 72, 93
+  offset: 0, 0
+  index: -1
+ce/lufei_kuziL
+  rotate: true
+  xy: 599, 38
+  size: 50, 64
+  orig: 50, 64
+  offset: 0, 0
+  index: -1
+ce/lufei_kuziR
+  rotate: false
+  xy: 988, 415
+  size: 34, 65
+  orig: 34, 65
+  offset: 0, 0
+  index: -1
+ce/lufei_piaodai
+  rotate: true
+  xy: 585, 8
+  size: 28, 70
+  orig: 30, 70
+  offset: 2, 0
+  index: -1
+ce/lufei_toufa1
+  rotate: false
+  xy: 522, 108
+  size: 84, 71
+  orig: 84, 71
+  offset: 0, 0
+  index: -1
+ce/lufei_toufa2
+  rotate: true
+  xy: 338, 170
+  size: 80, 103
+  orig: 80, 103
+  offset: 0, 0
+  index: -1
+ce/lufei_yifunei
+  rotate: true
+  xy: 803, 280
+  size: 17, 37
+  orig: 26, 37
+  offset: 7, 0
+  index: -1
+zheng/lufei-maozi
+  rotate: false
+  xy: 803, 299
+  size: 54, 76
+  orig: 54, 76
+  offset: 0, 0
+  index: -1
+zheng/lufei-quantounei
+  rotate: false
+  xy: 804, 103
+  size: 21, 24
+  orig: 36, 29
+  offset: 10, 0
+  index: -1
+zheng/lufei-shengzi
+  rotate: true
+  xy: 335, 107
+  size: 61, 94
+  orig: 61, 94
+  offset: 0, 0
+  index: -1
+zheng/lufei-weidai
+  rotate: false
+  xy: 770, 129
+  size: 51, 39
+  orig: 56, 46
+  offset: 0, 7
+  index: -1
+zheng/lufei_biaoqing
+  rotate: false
+  xy: 342, 2
+  size: 86, 103
+  orig: 86, 103
+  offset: 0, 0
+  index: -1
+zheng/lufei_toufa1
+  rotate: false
+  xy: 518, 181
+  size: 87, 80
+  orig: 92, 80
+  offset: 0, 0
+  index: -1
+zheng/lufei_yifunei
+  rotate: true
+  xy: 859, 331
+  size: 44, 84
+  orig: 44, 84
+  offset: 0, 0
+  index: -1
+zheng/lufei_yifuwai
+  rotate: false
+  xy: 774, 204
+  size: 51, 73
+  orig: 56, 78
+  offset: 0, 0
+  index: -1
+zheng/quantouheida1
+  rotate: true
+  xy: 2, 17
+  size: 267, 155
+  orig: 273, 164
+  offset: 4, 5
+  index: -1

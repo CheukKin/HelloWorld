@@ -1,0 +1,5 @@
+#场景物件表									
+#id	物件名称	模型	纹理	物件质量	物件体积	是否可被投掷	投掷后是否消失	走跑路动力	衰减系数(最终的力=走跑路动力 – 当前xy合速度*衰减系数)
+int	string	string	string	float	float	int	int	float	float
+id	name	model	textureName	quality	cubage	IfThrow	IfDisappear 	forwardForce	forwardWeakFric
+1	垃圾筒	map_lajitong	map_lajitong	100	1	1	1	0	0

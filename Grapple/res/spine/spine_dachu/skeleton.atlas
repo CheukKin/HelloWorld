@@ -1,0 +1,55 @@
+
+skeleton.png
+size: 1024,128
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+honghaidao-lian
+  rotate: false
+  xy: 847, 68
+  size: 33, 42
+  orig: 33, 42
+  offset: 0, 0
+  index: -1
+honghaidao-shenti
+  rotate: true
+  xy: 729, 41
+  size: 69, 116
+  orig: 69, 116
+  offset: 0, 0
+  index: -1
+honghaidao-toufa
+  rotate: false
+  xy: 2, 2
+  size: 39, 41
+  orig: 39, 41
+  offset: 0, 0
+  index: -1
+honghaidao-youshou
+  rotate: true
+  xy: 2, 45
+  size: 65, 213
+  orig: 65, 213
+  offset: 0, 0
+  index: -1
+honghaidao-youtui
+  rotate: true
+  xy: 396, 33
+  size: 77, 167
+  orig: 77, 167
+  offset: 0, 0
+  index: -1
+honghaidao-zuoshou
+  rotate: true
+  xy: 217, 9
+  size: 101, 177
+  orig: 101, 177
+  offset: 0, 0
+  index: -1
+honghaidao-zuotui
+  rotate: true
+  xy: 565, 40
+  size: 70, 162
+  orig: 70, 162
+  offset: 0, 0
+  index: -1

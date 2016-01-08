@@ -1,0 +1,97 @@
+
+daodan.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+1/paodanbaozha1_00
+  rotate: false
+  xy: 284, 290
+  size: 133, 135
+  orig: 512, 512
+  offset: 192, 188
+  index: -1
+1/paodanbaozha1_01
+  rotate: true
+  xy: 642, 689
+  size: 168, 195
+  orig: 512, 512
+  offset: 169, 157
+  index: -1
+1/paodanbaozha1_02
+  rotate: true
+  xy: 236, 639
+  size: 210, 201
+  orig: 512, 512
+  offset: 150, 154
+  index: -1
+1/paodanbaozha1_03
+  rotate: false
+  xy: 2, 620
+  size: 232, 229
+  orig: 512, 512
+  offset: 144, 141
+  index: -1
+1/paodanbaozha1_04
+  rotate: false
+  xy: 439, 664
+  size: 201, 193
+  orig: 512, 512
+  offset: 142, 161
+  index: -1
+1/paodanbaozha1_05
+  rotate: true
+  xy: 839, 702
+  size: 155, 137
+  orig: 512, 512
+  offset: 186, 189
+  index: -1
+2/paodantuowei_00
+  rotate: true
+  xy: 2, 2
+  size: 307, 140
+  orig: 512, 512
+  offset: 111, 185
+  index: -1
+2/paodantuowei_01
+  rotate: true
+  xy: 2, 311
+  size: 307, 141
+  orig: 512, 512
+  offset: 111, 184
+  index: -1
+2/paodantuowei_02
+  rotate: false
+  xy: 2, 851
+  size: 327, 141
+  orig: 512, 512
+  offset: 111, 184
+  index: -1
+2/paodantuowei_03
+  rotate: false
+  xy: 331, 859
+  size: 317, 133
+  orig: 512, 512
+  offset: 111, 192
+  index: -1
+2/paodantuowei_04
+  rotate: false
+  xy: 650, 859
+  size: 315, 133
+  orig: 512, 512
+  offset: 111, 192
+  index: -1
+2/paodantuowei_05
+  rotate: true
+  xy: 145, 323
+  size: 295, 137
+  orig: 512, 512
+  offset: 111, 188
+  index: -1
+heiyan-dan1
+  rotate: true
+  xy: 284, 427
+  size: 210, 107
+  orig: 210, 107
+  offset: 0, 0
+  index: -1

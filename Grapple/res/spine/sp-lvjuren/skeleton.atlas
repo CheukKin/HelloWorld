@@ -1,0 +1,188 @@
+
+skeleton.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+lujuren-beimian/lvjurenbei-shenti
+  rotate: false
+  xy: 2, 303
+  size: 176, 199
+  orig: 176, 199
+  offset: 0, 0
+  index: -1
+lujuren-beimian/lvjurenbei-tou
+  rotate: false
+  xy: 306, 258
+  size: 105, 96
+  orig: 105, 96
+  offset: 0, 0
+  index: -1
+lujuren-beimian/lvjurenbei-youshou
+  rotate: false
+  xy: 169, 59
+  size: 123, 220
+  orig: 123, 221
+  offset: 0, 1
+  index: -1
+lujuren-beimian/lvjurenbei-youtui
+  rotate: false
+  xy: 755, 787
+  size: 58, 97
+  orig: 60, 99
+  offset: 1, 0
+  index: -1
+lujuren-beimian/lvjurenbei-zuoshou
+  rotate: false
+  xy: 206, 494
+  size: 140, 213
+  orig: 140, 214
+  offset: 0, 0
+  index: -1
+lujuren-beimian/lvjurenbei-zuotui
+  rotate: false
+  xy: 693, 786
+  size: 60, 98
+  orig: 60, 99
+  offset: 0, 0
+  index: -1
+lujuren-biaoqing/lvjurenzheng-tou
+  rotate: false
+  xy: 454, 758
+  size: 113, 125
+  orig: 113, 131
+  offset: 0, 6
+  index: -1
+lujuren-biaoqing/lvjurenzheng-tou1
+  rotate: false
+  xy: 348, 609
+  size: 113, 125
+  orig: 113, 131
+  offset: 0, 6
+  index: -1
+lujuren-biaoqing/lvjurenzheng-tou2
+  rotate: false
+  xy: 348, 482
+  size: 113, 125
+  orig: 113, 131
+  offset: 0, 6
+  index: -1
+lujuren-biaoqing/lvjurenzheng-tou3
+  rotate: false
+  xy: 853, 892
+  size: 113, 130
+  orig: 113, 131
+  offset: 0, 0
+  index: -1
+lujuren-biaoqing/lvjurenzheng-tou4
+  rotate: false
+  xy: 463, 631
+  size: 113, 125
+  orig: 113, 131
+  offset: 0, 6
+  index: -1
+lujuren-biaoqing/lvjurenzheng-tou5
+  rotate: false
+  xy: 463, 504
+  size: 113, 125
+  orig: 113, 131
+  offset: 0, 6
+  index: -1
+lujuren-cemian/lujurence-tou
+  rotate: false
+  xy: 306, 356
+  size: 112, 124
+  orig: 112, 130
+  offset: 0, 6
+  index: -1
+lujuren-cemian/lujurence-tou2
+  rotate: false
+  xy: 340, 736
+  size: 112, 130
+  orig: 112, 130
+  offset: 0, 0
+  index: -1
+lujuren-cemian/lvjurence-neitui
+  rotate: false
+  xy: 2, 2
+  size: 60, 99
+  orig: 60, 99
+  offset: 0, 0
+  index: -1
+lujuren-cemian/lvjurence-shenti
+  rotate: false
+  xy: 2, 103
+  size: 165, 198
+  orig: 167, 200
+  offset: 2, 2
+  index: -1
+lujuren-cemian/lvjurence-waishou
+  rotate: true
+  xy: 629, 886
+  size: 136, 222
+  orig: 136, 222
+  offset: 0, 0
+  index: -1
+lujuren-cemian/lvjurence-waitui
+  rotate: false
+  xy: 569, 767
+  size: 63, 116
+  orig: 73, 117
+  offset: 0, 1
+  index: -1
+lujuren-che/lujuren-che2
+  rotate: false
+  xy: 2, 709
+  size: 336, 157
+  orig: 397, 157
+  offset: 2, 0
+  index: -1
+lujuren-che/lvjuren-che1
+  rotate: false
+  xy: 2, 868
+  size: 396, 154
+  orig: 397, 157
+  offset: 1, 1
+  index: -1
+lujuren-zhengmian/lvjuren-qizi
+  rotate: false
+  xy: 968, 971
+  size: 33, 51
+  orig: 33, 51
+  offset: 0, 0
+  index: -1
+lujuren-zhengmian/lvjurenzheng-shenti
+  rotate: false
+  xy: 2, 504
+  size: 202, 203
+  orig: 202, 203
+  offset: 0, 0
+  index: -1
+lujuren-zhengmian/lvjurenzheng-youshou
+  rotate: true
+  xy: 400, 885
+  size: 137, 227
+  orig: 137, 227
+  offset: 0, 0
+  index: -1
+lujuren-zhengmian/lvjurenzheng-youtui
+  rotate: false
+  xy: 634, 779
+  size: 57, 105
+  orig: 57, 106
+  offset: 0, 0
+  index: -1
+lujuren-zhengmian/lvjurenzheng-zuoshou
+  rotate: false
+  xy: 180, 281
+  size: 124, 211
+  orig: 128, 215
+  offset: 2, 2
+  index: -1
+lujuren-zhengmian/lvjurenzheng-zuotui
+  rotate: true
+  xy: 64, 44
+  size: 57, 103
+  orig: 57, 104
+  offset: 0, 1
+  index: -1

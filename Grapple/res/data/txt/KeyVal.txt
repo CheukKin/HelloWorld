@@ -1,0 +1,83 @@
+#KeyVal		
+#Key	Val	备注
+string	string	
+key	value	
+hurtY	100	
+walkSpeed	20	
+downTime	2	
+downTimeExtend	5	
+#伤害修正的左右线以及总值Table----即实际输出伤害范围为 ll/t ~ rl/t 暂定0.36 ~ 0.4 ，最低伤害暂定为10		
+DmgCorrection_LeftLimit	15	
+DmgCorrection_RightLimit	19	
+DmgCorrection_Total	100	
+DmgLimit_Lowest	10	
+#穿透参数的总份数----主要作为穿透数值的上限，例如100份的话，角色拥有10份，则该角色拥有10/100=10%的穿透，敌方防御力剩下为原本防御力的90%		
+OtherParameter_PntTotal	100	
+#暴击总份数----若角色的暴击伤害为200，总分数设定为100，则暴击时的伤害就为 200/100=2 即伤害为原本的2倍		
+OtherParameter_CriStrikesTotal	100	
+mainRoleId	6	
+gameTime	0	
+mapMoveOver	1.2	
+mapMoveBehind	0.8	
+mapMoveRatio	60	
+#仇恨计算相关参数		
+#距离系数distanceCoe、仇恨成长系数hateGrowth( 基础仇恨 = 距离系数distanceCoe / 距离 + 攻击仇恨 * 仇恨系数hateGrowth)		
+distanceCoe	2000	
+hateGrowth	1	
+#伤害系数 ( 每次收到伤害增加的仇恨值系数 )		
+hurtCoe	1	
+#切换间隔replaceInterval、切换百分比replacePecent ( 切换间隔-秒、每 replaceInterval 秒重选目标、条件是新的目标的仇恨值为原目标的 replacePecent 倍)		
+replaceInterval	5	
+replacePecent	1	
+#衰减间隔decayInterval、衰减量decayValue ( 每 decayInterval 秒 衰减 decayValue 值的仇恨，当仇恨为0时候，马上重新计算)		
+decayInterval	1	
+decayValue	10	
+连续倒地衰减时间（填写百分比）		
+DownDecayRatio	1	
+thinhurtfall	a_thindown	（瘦子被打落地）
+fathurtfull	a_fatdown	（胖子被打落地）
+thinjumpfull	a_thinjumpfull	（瘦子跳起落地）
+fatjumpfull	a_fatjumpfull	（胖子跳起落地）
+winsound	a_winsound	胜利音效
+losesound	a_losesound	失败音效
+readygo	a_readygo	准备开始音效
+BGMusicDecay	0.5	有音效时，背景音乐衰减后的百分比
+MusicEffectDecay	2000	音效距离衰减参数
+fallIMpulse	20000	落地冲量临界值
+setuprole	a_chuangjue	创建角色音乐
+chooselevel	a_chooselevel	选择关卡音乐
+TransferForce	0.4	人物被抛出去撞到人之后，被撞的人受到的力占总抛出力的百分比
+ResidualSpeed	0.6	人物被抛出去撞到人之后，被被抛出的人剩下的速度
+jumpatkRelease	0.3	施展跳跃后多长时间施展跳攻
+jumpProbability	0.5	检测到目标处于不同的Z轴时，jump释放的概率
+FindPathSucStep	100	思考成果时寻路的思考时间，有目标寻路
+FindPathFailStep	1000	思考失败后寻路的思考时间，无目标寻路
+StoreRefreshTime	9-12-18-21	商店四个自动刷新时间
+PhysicalRecovery	2	每次恢复的体力数
+PhysicalRecoveryTime	5	体力恢复的时间间隔（单位：分）
+PhysicalMax	200	体力最大上限值
+starsound	ui_star	星星砸下的音效
+openbox	ui_openbox	打开宝箱音效
+opensound	ui_open	打开音效
+closesound	ui_close	关闭音效
+fightsound	ui_fight	进入战斗音效
+returnsound	ui_return	返回音效
+oksound	ui_ok	选定音效
+jinjiesound	ui_jinjie	进阶音效
+EquipEXP	1#5#10#30#100#120#150#200	不同品质装备转化为强化的经验值（白#绿#蓝#紫#橙）
+EquipBackGold	50	装备反回金币
+EquipBackEXP	80	装备经验反还
+EquipGemNum	1#2#3#10#20#30	装备自动放入强化石的数量
+EquipMaxLevel	15#20#25#50#50#50#50#55	装备最大强化等级
+EquipGold	20	强化消耗的金币与经验的倍数关系
+winsound2	ui_winsound2	胜利音效2
+moneysound	ui_money	金币
+changesound	ui_change	切换
+BattleTalk	5#8#10	分别对应2次wow、3次Great、4次Perfect
+speech	a_wao#a_great#a_perfect	语音
+ShopRefreshTime	9#12#18#21	对应着一天时间的9点、12点、18点、21点
+FirstChargeModel	7	首充礼包的模型ID
+equipmentsound	ui_equipment	装备音效
+SuppressParameter	0.01	等级压制相关系数
+girlsound	ui_girlsound	商店里的女孩儿
+girlsound2	ui_girlsound2	商店里的女孩儿

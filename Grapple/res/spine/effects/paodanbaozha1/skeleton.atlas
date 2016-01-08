@@ -1,0 +1,48 @@
+
+skeleton.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+1/paodanbaozha1_00
+  rotate: false
+  xy: 371, 4
+  size: 133, 135
+  orig: 512, 512
+  offset: 192, 188
+  index: -1
+1/paodanbaozha1_01
+  rotate: true
+  xy: 236, 141
+  size: 168, 195
+  orig: 512, 512
+  offset: 169, 157
+  index: -1
+1/paodanbaozha1_02
+  rotate: false
+  xy: 2, 72
+  size: 210, 201
+  orig: 512, 512
+  offset: 150, 154
+  index: -1
+1/paodanbaozha1_03
+  rotate: false
+  xy: 2, 275
+  size: 232, 229
+  orig: 512, 512
+  offset: 144, 141
+  index: -1
+1/paodanbaozha1_04
+  rotate: false
+  xy: 236, 311
+  size: 201, 193
+  orig: 512, 512
+  offset: 142, 161
+  index: -1
+1/paodanbaozha1_05
+  rotate: false
+  xy: 214, 2
+  size: 155, 137
+  orig: 512, 512
+  offset: 186, 189
+  index: -1

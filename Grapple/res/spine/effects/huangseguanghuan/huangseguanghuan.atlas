@@ -1,0 +1,20 @@
+
+huangseguanghuan.png
+size: 256,64
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+effect/guanghuan_00
+  rotate: false
+  xy: 120, 19
+  size: 87, 43
+  orig: 100, 100
+  offset: 7, 28
+  index: -1
+effect/juese-yingzi
+  rotate: false
+  xy: 2, 2
+  size: 116, 60
+  orig: 116, 60
+  offset: 0, 0
+  index: -1

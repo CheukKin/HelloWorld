@@ -1,0 +1,10 @@
+#弹道信息表																	
+#ID	远程对象模型	纹理	类型(1直线 2抛物线 3正弦线)	显示影子	x速度	y速度	z速度	质量	周期时间	生存时间	生存时间结束后播放的动作	动作行为(1碰到对象后消失 2碰到对象后不消失)	延迟多久消失	开始动作	碰到对象消失时播放的动作	落地反弹次数(0不反弹 1反弹)	是否改变子弹朝向(0否 1是)
+int	string	string	int	int	float	float	float	int	float	float	string	int	float	string	string	int	int
+id	model	textureName	type	showShadow	xSpeed	ySpeed	zSpeed	quality	circle	aliveTime	aliveEndAct	act	delay	actStart	actEndAct	rebound	chgDir
+1	remote_changzidan	remote_changzidan	3	0	300	0	0	1	0.01	0		1		atk1	atk2	0	0
+2	remote_daodan	remote_daodan	3	1	200	0	0	1	1	0		1		atk1	atk2	0	0
+3	remote_changzidan	remote_changzidan	1	0	200	0	-130	1	0	0		1		atk1	atk2	0	1
+4	remote_liandao-wuqi	remote_liandao-wuqi	1	1	300	0	-200	1		0		1	2.3	skill1		0	0
+5	remote_renzhefeibiao	remote_renzhefeibiao	3	0	250	0	-150	1	0	0		1		atk1	atk2	0	1
+6	ammdimianshui	ammdimianshui	1	0	0	0	0	1	0	10		2		skill2		0	0

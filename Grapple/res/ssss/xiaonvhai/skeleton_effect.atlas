@@ -1,0 +1,146 @@
+
+skeleton_effect.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+effect/1/atk_1_00
+  rotate: false
+  xy: 2, 723
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+effect/1/atk_1_01
+  rotate: false
+  xy: 2, 465
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+effect/1/atk_1_02
+  rotate: false
+  xy: 260, 723
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+effect/1/atk_1_03
+  rotate: false
+  xy: 2, 207
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+effect/1/atk_1_04
+  rotate: false
+  xy: 260, 465
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+effect/2/skill_00
+  rotate: true
+  xy: 204, 2
+  size: 203, 129
+  orig: 203, 129
+  offset: 0, 0
+  index: -1
+effect/2/skill_01
+  rotate: true
+  xy: 720, 518
+  size: 203, 129
+  orig: 203, 129
+  offset: 0, 0
+  index: -1
+effect/2/skill_02
+  rotate: true
+  xy: 851, 574
+  size: 203, 129
+  orig: 203, 129
+  offset: 0, 0
+  index: -1
+effect/2/skill_03
+  rotate: true
+  xy: 664, 313
+  size: 203, 129
+  orig: 203, 129
+  offset: 0, 0
+  index: -1
+effect/2/skill_04
+  rotate: true
+  xy: 795, 313
+  size: 203, 129
+  orig: 203, 129
+  offset: 0, 0
+  index: -1
+effect/2/skill_05
+  rotate: false
+  xy: 703, 182
+  size: 203, 129
+  orig: 203, 129
+  offset: 0, 0
+  index: -1
+effect/2/skill_06
+  rotate: false
+  xy: 703, 51
+  size: 203, 129
+  orig: 203, 129
+  offset: 0, 0
+  index: -1
+effect/3/skill3_2_00
+  rotate: false
+  xy: 2, 5
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+effect/3/skill3_2_01
+  rotate: false
+  xy: 260, 263
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+effect/3/skill3_2_02
+  rotate: false
+  xy: 518, 521
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+effect/3/skill3_2_03
+  rotate: false
+  xy: 776, 779
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+effect/3/skill3_2_04
+  rotate: false
+  xy: 462, 263
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+effect/3/skill3_2_05
+  rotate: false
+  xy: 501, 61
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+effect/skill2_3_00
+  rotate: false
+  xy: 335, 33
+  size: 164, 228
+  orig: 164, 228
+  offset: 0, 0
+  index: -1
+effect/startaction_1
+  rotate: false
+  xy: 518, 723
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1

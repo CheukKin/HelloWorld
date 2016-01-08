@@ -1,0 +1,4 @@
+#技能信息表					
+#ID	动作ID	跳跃准备帧	跳跃上升帧	跳跃下降帧	跳跃完成帧
+int	string	int	string	string	int
+id	ActionID	PrepareFrame	RiseFrame	DropFrame	CompleteFrame

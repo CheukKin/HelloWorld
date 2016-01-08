@@ -1,0 +1,264 @@
+
+skeleton_effect.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+atk1/1/heiyansheshou_effect_atk1_1_02
+  rotate: false
+  xy: 2, 676
+  size: 631, 340
+  orig: 1024, 768
+  offset: 92, 223
+  index: -1
+atk1/1/heiyansheshou_effect_atk1_1_03
+  rotate: false
+  xy: 2, 383
+  size: 630, 291
+  orig: 1024, 768
+  offset: 92, 223
+  index: -1
+atk2/1/heiyansheshou_effect_atk2_1_01
+  rotate: false
+  xy: 2, 94
+  size: 599, 287
+  orig: 1024, 768
+  offset: 40, 219
+  index: -1
+atk2/1/heiyansheshou_effect_atk2_1_02
+  rotate: true
+  xy: 635, 419
+  size: 597, 355
+  orig: 1024, 768
+  offset: 40, 235
+  index: -1
+atk3/1/heiyansheshou_effect_atk3_1_02
+  rotate: true
+  xy: 634, 153
+  size: 264, 282
+  orig: 1024, 768
+  offset: 231, 245
+  index: -1
+atk3/1/heiyansheshou_effect_atk3_1_03
+  rotate: true
+  xy: 603, 2
+  size: 149, 289
+  orig: 1024, 768
+  offset: 293, 242
+  index: -1
+atk3/heiyansheshou_effect_atk3_2_00
+  rotate: true
+  xy: 918, 220
+  size: 197, 93
+  orig: 1024, 768
+  offset: 481, 259
+  index: -1
+skill3/2/heiyansheshou_effect_skill3_2_38
+  rotate: true
+  xy: 172, 12
+  size: 80, 145
+  orig: 512, 384
+  offset: 223, 19
+  index: -1
+skill3/2/heiyansheshou_effect_skill3_2_39
+  rotate: true
+  xy: 2, 7
+  size: 85, 168
+  orig: 512, 384
+  offset: 209, 8
+  index: -1
+skill3/2/heiyansheshou_effect_skill3_2_40
+  rotate: false
+  xy: 918, 37
+  size: 86, 181
+  orig: 512, 384
+  offset: 203, 1
+  index: -1
+skill3/3/heiyansheshou_effect_skill3_3_00
+  rotate: false
+  xy: 447, 6
+  size: 126, 86
+  orig: 512, 384
+  offset: 187, 53
+  index: -1
+skill3/3/heiyansheshou_effect_skill3_3_02
+  rotate: false
+  xy: 319, 5
+  size: 126, 87
+  orig: 512, 384
+  offset: 187, 53
+  index: -1
+
+skeleton_effect2.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+atk1/1/heiyansheshou_effect_atk1_1_00
+  rotate: false
+  xy: 750, 354
+  size: 117, 90
+  orig: 1024, 768
+  offset: 511, 475
+  index: -1
+atk1/1/heiyansheshou_effect_atk1_1_01
+  rotate: false
+  xy: 2, 313
+  size: 534, 187
+  orig: 1024, 768
+  offset: 94, 377
+  index: -1
+atk1/1/heiyansheshou_effect_atk1_1_04
+  rotate: false
+  xy: 2, 502
+  size: 625, 250
+  orig: 1024, 768
+  offset: 94, 225
+  index: -1
+atk2/1/heiyansheshou_effect_atk2_1_00
+  rotate: false
+  xy: 2, 147
+  size: 396, 164
+  orig: 1024, 768
+  offset: 317, 209
+  index: -1
+atk2/1/heiyansheshou_effect_atk2_1_03
+  rotate: false
+  xy: 2, 754
+  size: 631, 258
+  orig: 1024, 768
+  offset: 40, 341
+  index: -1
+atk2/1/heiyansheshou_effect_atk2_1_04
+  rotate: false
+  xy: 635, 873
+  size: 338, 139
+  orig: 1024, 768
+  offset: 337, 461
+  index: -1
+atk3/1/heiyansheshou_effect_atk3_1_00
+  rotate: true
+  xy: 865, 657
+  size: 214, 138
+  orig: 1024, 768
+  offset: 362, 313
+  index: -1
+atk3/1/heiyansheshou_effect_atk3_1_01
+  rotate: false
+  xy: 629, 446
+  size: 220, 195
+  orig: 1024, 768
+  offset: 295, 287
+  index: -1
+atk3/1/heiyansheshou_effect_atk3_1_04
+  rotate: true
+  xy: 2, 2
+  size: 143, 290
+  orig: 1024, 768
+  offset: 299, 241
+  index: -1
+skill1/1/heiyansheshou_effect_skill1_1_00
+  rotate: false
+  xy: 527, 172
+  size: 92, 106
+  orig: 1024, 768
+  offset: 580, 165
+  index: -1
+skill1/1/heiyansheshou_effect_skill1_1_01
+  rotate: false
+  xy: 294, 16
+  size: 105, 129
+  orig: 1024, 768
+  offset: 567, 153
+  index: -1
+skill1/1/heiyansheshou_effect_skill1_1_02
+  rotate: false
+  xy: 400, 150
+  size: 125, 161
+  orig: 1024, 768
+  offset: 552, 138
+  index: -1
+skill1/2/heiyansheshou_effect_skill1_2_00
+  rotate: false
+  xy: 621, 202
+  size: 97, 74
+  orig: 1024, 768
+  offset: 697, 185
+  index: -1
+skill1/2/heiyansheshou_effect_skill1_2_01
+  rotate: false
+  xy: 630, 61
+  size: 76, 69
+  orig: 1024, 768
+  offset: 721, 186
+  index: -1
+skill1/2/heiyansheshou_effect_skill1_2_02
+  rotate: false
+  xy: 733, 238
+  size: 76, 58
+  orig: 1024, 768
+  offset: 726, 202
+  index: -1
+skill1/2/heiyansheshou_effect_skill1_2_03
+  rotate: false
+  xy: 630, 132
+  size: 80, 68
+  orig: 1024, 768
+  offset: 714, 197
+  index: -1
+skill3/2/heiyansheshou_effect_skill3_2_37
+  rotate: false
+  xy: 538, 280
+  size: 83, 92
+  orig: 512, 384
+  offset: 220, 45
+  index: -1
+skill3/3/heiyansheshou_effect_skill3_3_01
+  rotate: true
+  xy: 538, 374
+  size: 126, 86
+  orig: 512, 384
+  offset: 187, 53
+  index: -1
+skill3/3/heiyansheshou_effect_skill3_3_03
+  rotate: false
+  xy: 733, 298
+  size: 125, 54
+  orig: 512, 384
+  offset: 188, 70
+  index: -1
+skill3/3/heiyansheshou_effect_skill3_3_04
+  rotate: true
+  xy: 579, 46
+  size: 124, 49
+  orig: 512, 384
+  offset: 188, 72
+  index: -1
+skill3/3/heiyansheshou_effect_skill3_3_05
+  rotate: false
+  xy: 626, 357
+  size: 122, 87
+  orig: 512, 384
+  offset: 189, 53
+  index: -1
+skill3/heiyansheshou_effect_skill3_1_00
+  rotate: true
+  xy: 623, 278
+  size: 77, 108
+  orig: 512, 384
+  offset: 234, 32
+  index: -1
+skill3/heiyansheshou_effect_skill3_4_00
+  rotate: false
+  xy: 635, 643
+  size: 228, 228
+  orig: 512, 512
+  offset: 142, 142
+  index: -1
+skill3/heiyansheshou_effect_skill3_5_00
+  rotate: false
+  xy: 401, 40
+  size: 176, 108
+  orig: 256, 256
+  offset: 38, 93
+  index: -1

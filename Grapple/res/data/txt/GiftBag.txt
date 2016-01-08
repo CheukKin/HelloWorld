@@ -1,0 +1,9 @@
+#礼包表																		
+#id	礼包条件（1花费RMB购买）	条件参数	礼包图标	礼包开启后的图标	礼包介绍	礼包名	物品ID1	物品名1	物品1数量	物品ID2	物品名2	物品2数量	物品ID3	物品名3	物品3数量	物品ID4	物品名4	物品4数量
+int	string	float	string	string	string	string	int	string	int	int	string	int	int	string	int	int	string	int
+id	conditions	conditionsNumber	Icon	Icon1	describe	PackageName	ItemId1	name1	Num1	ItemId2	name2	Num2	ItemId3	name3	Num3	ItemId4	name4	Num4
+1	1	30	tempItem	tempItem	打开可获得艾利查卡多整卡一张、五万金币、高级经验丹一个、强化石5个	超值礼包	7	佐二少	1	2104	50000金币	1	2003	高级经验丹	1	3000	强化石	5
+101						VIP1礼包	2102	10000金币	1	2003	高级经验丹	1	2302	50钻石	1			
+102						VIP2礼包	2103	20000金币	1	2003	高级经验丹	2	2302	50钻石	2			
+103						VIP3礼包	2104	50000金币	1	2003	高级经验丹	3	2302	50钻石	3			
+104						VIP4礼包	2105	100000金币	1	2003	高级经验丹	5	2302	50钻石	5	3100	圣王宝箱	1

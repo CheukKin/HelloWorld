@@ -1,0 +1,160 @@
+
+skeleton_effect.png
+size: 1024,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+effect/1/atk_00
+  rotate: true
+  xy: 722, 26
+  size: 140, 156
+  orig: 200, 200
+  offset: 24, 23
+  index: -1
+effect/1/atk_01
+  rotate: false
+  xy: 656, 105
+  size: 64, 254
+  orig: 300, 300
+  offset: 118, 23
+  index: -1
+effect/2/skill1_0
+  rotate: true
+  xy: 722, 168
+  size: 160, 140
+  orig: 256, 256
+  offset: 69, 58
+  index: -1
+effect/2/skill1_1
+  rotate: false
+  xy: 410, 184
+  size: 90, 138
+  orig: 256, 256
+  offset: 83, 57
+  index: -1
+effect/3/skill2_0
+  rotate: false
+  xy: 2, 255
+  size: 256, 234
+  orig: 256, 256
+  offset: 0, 14
+  index: -1
+effect/3/skill2_1
+  rotate: true
+  xy: 260, 324
+  size: 165, 244
+  orig: 256, 256
+  offset: 11, 8
+  index: -1
+effect/4/skill4_1
+  rotate: true
+  xy: 2, 15
+  size: 238, 133
+  orig: 256, 256
+  offset: 3, 100
+  index: -1
+effect/4/skill4_2
+  rotate: false
+  xy: 506, 361
+  size: 256, 128
+  orig: 256, 256
+  offset: 0, 62
+  index: -1
+effect/5/skill4_3_00
+  rotate: false
+  xy: 496, 2
+  size: 144, 154
+  orig: 256, 256
+  offset: 56, 39
+  index: -1
+effect/5/skill4_3_01
+  rotate: true
+  xy: 251, 17
+  size: 145, 160
+  orig: 256, 256
+  offset: 57, 44
+  index: -1
+effect/5/skill4_3_02
+  rotate: false
+  xy: 764, 330
+  size: 149, 159
+  orig: 256, 256
+  offset: 58, 49
+  index: -1
+effect/5/skill4_3_03
+  rotate: false
+  xy: 260, 164
+  size: 148, 158
+  orig: 256, 256
+  offset: 60, 51
+  index: -1
+effect/5/skill4_3_04
+  rotate: false
+  xy: 864, 174
+  size: 138, 154
+  orig: 256, 256
+  offset: 68, 55
+  index: -1
+effect/5/skill4_3_05
+  rotate: true
+  xy: 137, 125
+  size: 128, 112
+  orig: 256, 256
+  offset: 78, 96
+  index: -1
+effect/5/skill4_3_06
+  rotate: true
+  xy: 880, 60
+  size: 112, 110
+  orig: 256, 256
+  offset: 89, 96
+  index: -1
+effect/jumpatk_1
+  rotate: true
+  xy: 506, 158
+  size: 201, 148
+  orig: 256, 256
+  offset: 33, 21
+  index: -1
+effect/skill3/skill3_00
+  rotate: false
+  xy: 642, 20
+  size: 67, 83
+  orig: 128, 128
+  offset: 28, 24
+  index: -1
+effect/skill3/skill3_01
+  rotate: true
+  xy: 413, 95
+  size: 87, 81
+  orig: 128, 128
+  offset: 24, 29
+  index: -1
+effect/skill3/skill3_02
+  rotate: false
+  xy: 915, 341
+  size: 63, 40
+  orig: 128, 128
+  offset: 48, 44
+  index: -1
+effect/skill3/skill3_03
+  rotate: false
+  xy: 413, 13
+  size: 71, 80
+  orig: 128, 128
+  offset: 38, 34
+  index: -1
+effect/skill3/skill3_04
+  rotate: false
+  xy: 137, 11
+  size: 112, 112
+  orig: 128, 128
+  offset: 4, 13
+  index: -1
+effect/skill3/skill3_05
+  rotate: false
+  xy: 915, 383
+  size: 105, 106
+  orig: 128, 128
+  offset: 11, 12
+  index: -1

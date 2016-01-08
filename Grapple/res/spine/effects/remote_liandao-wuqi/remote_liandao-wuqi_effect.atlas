@@ -1,0 +1,76 @@
+
+remote_liandao-wuqi_effect.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+effect/1/skill_00
+  rotate: false
+  xy: 516, 774
+  size: 203, 129
+  orig: 203, 129
+  offset: 0, 0
+  index: -1
+effect/1/skill_01
+  rotate: false
+  xy: 2, 2
+  size: 203, 129
+  orig: 203, 129
+  offset: 0, 0
+  index: -1
+effect/1/skill_02
+  rotate: false
+  xy: 260, 260
+  size: 203, 129
+  orig: 203, 129
+  offset: 0, 0
+  index: -1
+effect/1/skill_03
+  rotate: false
+  xy: 516, 643
+  size: 203, 129
+  orig: 203, 129
+  offset: 0, 0
+  index: -1
+effect/1/skill_04
+  rotate: false
+  xy: 721, 774
+  size: 203, 129
+  orig: 203, 129
+  offset: 0, 0
+  index: -1
+effect/1/skill_05
+  rotate: false
+  xy: 516, 512
+  size: 203, 129
+  orig: 203, 129
+  offset: 0, 0
+  index: -1
+effect/1/skill_06
+  rotate: false
+  xy: 721, 643
+  size: 203, 129
+  orig: 203, 129
+  offset: 0, 0
+  index: -1
+effect/skill1_1
+  rotate: false
+  xy: 721, 513
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+effect/skill1_2
+  rotate: false
+  xy: 2, 133
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+effect/skill1_3
+  rotate: false
+  xy: 2, 391
+  size: 512, 512
+  orig: 512, 512
+  offset: 0, 0
+  index: -1

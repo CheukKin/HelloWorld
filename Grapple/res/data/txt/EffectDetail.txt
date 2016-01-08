@@ -1,0 +1,5 @@
+#特效信息表											
+#ID	名称	模型	纹理	ActionName	类型	zOrder	模型大小	质量	偏移位置X	偏移位置Y	偏移位置Z
+int	string	string	string	string	int	int	float	float	float	float	float
+id	name	model	textureName	action	objType	zOrder	scale	quality	offsetX	offsetY	offsetZ
+1	主角1	dimiankeng	dimiankeng	skill2	1	-1	0.8	100	0	0	0

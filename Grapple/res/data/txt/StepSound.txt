@@ -1,0 +1,6 @@
+#音效信息					
+#ID	正常地面音效名称	木质地面音效名称	淤泥地面音效名称	冰面音效名称	备注
+int	string	string	string	string	string
+id	StoneFloor	WoodFloor	MudSoundName	IceSoundName	Remarks
+1	a_thinwalk	a_thinwalkwood	b_zhangliangskill1	a_thinciywalk	正常体型音效
+2	a_fatwalk	a_fatwalkwood	b_zhugesi	a_faticywalk	超重体型音效

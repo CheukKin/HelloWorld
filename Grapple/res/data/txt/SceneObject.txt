@@ -1,0 +1,4 @@
+#人物信息表							
+#ID	物件类型（1、垃圾桶；2、大炸弹；3、地刺；4、汽车；）	正常状态动作名称	受击1次状态动作名称	受击2次状态动作名称	受击3次状态动作名称	爆炸后播放特效名称	伤害系数（普攻的倍数）
+int	int	string	string	string	string	string	int
+id	Type	IdleName	BeAtk1	BeAtk2	BeAtk3	BombEffect	DamageCoefficient

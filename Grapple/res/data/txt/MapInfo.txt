@@ -1,0 +1,13 @@
+#地图配置信息													
+#ID	备注	静摩擦系数	动摩擦系数	倾斜角度	重力加速度	反弹系数	最低速度反弹	最高速度反弹	风力	风力方向((windDir % 1000)表示xy方向，(windDir / 1000) 表示Z方向，大于1000时只有Z方向有意义)	风力衰弱系数	BUFFID（在该区域内获得BUFF，离开则消失）	地面音效名称
+int	string	float	float	float	float	float	float	float	float	float	float	int	string
+id	comment	scFric	dcFric	angle	acGravity	bounceFric	minBounceSpeed	maxBounceSpeed	windForce	windAngle	windWeakFric	BUFFID	FloorSound
+1	默认	1.01	1	0	130	0.5	70	71	0	0	0		a_thinwalk
+2		1.01	1	-30	130	0.5	70	71	0	0	0		a_thinwalk
+3		1.01	1	30	130	0.5	70	71	0	0	0		a_thinwalk
+4	风扇	0	0	0	130	0.5	70	71	4000	-90	200		a_thinwalk
+5	斜坡	1.01	1	30	130	0.5	70	71	0	0	0		a_thinwalk
+6	冰面	1.01	0.5	0	130	0.5	70	71	0	0	0		a_thinwalkicy
+7	斜坡	1.01	1	32	130	0.5	70	71	0	0	0		a_thinwalkwood
+8	地刺	1.01	1	0	130	0.5	70	71	0	0	0		a_thinwalk
+9	沙地	1.01	1	0	130	0.5	70	71	0	0	0		a_thinwalksand

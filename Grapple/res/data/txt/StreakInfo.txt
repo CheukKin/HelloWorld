@@ -1,0 +1,4 @@
+#人物信息表							
+#ID	骨骼槽位名	拖尾宽度	渐变时间	最小片段	红	蓝	绿
+int	string	float	float	float	int	int	int
+id	slot	stroke	fade	minSeg	r	b	g

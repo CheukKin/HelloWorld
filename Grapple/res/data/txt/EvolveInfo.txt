@@ -1,0 +1,8 @@
+#进阶碎片需求	
+#ID	需要的碎片数量
+int	int
+startLevel	needNum
+1	50
+2	100
+3	180
+4	360

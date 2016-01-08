@@ -1,0 +1,5 @@
+#人物信息表				
+#ID	连招名称	技能ID	连招CD	魔法消耗
+int	string	string	int	float
+id	name	SkillID	ComboCD	MagicConsumption
+10	测试普攻连招	1-2-3	0	0

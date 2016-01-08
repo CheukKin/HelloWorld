@@ -1,0 +1,125 @@
+{
+    "mser" : [
+        {
+            "name":"account",
+            "fields" : [
+                {   "field" : "rid",                       "type" : "varchar(12)",     "nullable" : 1,         "default" : "",    "comment" : "账号名称",     "key" : "PRI",  "extra" : ""       },
+                {   "field" : "name",                      "type" : "varchar(99)",     "nullable" : 1,         "default" : "",    "comment" : "人物名称"                                  },
+				{   "field" : "createTime",                "type" : "int(32)",         "nullable" : 1,         "default" : "",    "comment" : "创建时间"                                  },
+                {   "field" : "phy",                       "type" : "int(16)",         "nullable" : 1,         "default" : "0",    "comment" : "体力值"                                  },
+                {   "field" : "stone",                     "type" : "int(32)",         "nullable" : 1,         "default" : "",    "comment" : "宝石"                                 },
+                {   "field" : "gold",                      "type" : "int(32)",         "nullable" : 1,         "default" : "",    "comment" : "金币"                                   },
+                {   "field" : "chargeRmb",                 "type" : "int(32)",         "nullable" : 1,         "default" : "",    "comment" : "充值金额"                                  },
+                {   "field" : "lastLoginTime",             "type" : "int(32)",         "nullable" : 1,         "default" : "",    "comment" : "最后一次登陆时间"                                  },
+                {   "field" : "vip",                       "type" : "int(32)",         "nullable" : 1,         "default" : "",    "comment" : "人物登陆天数"                                  },
+                {   "field" : "loginDays",                 "type" : "int(32)",         "nullable" : 1,         "default" : "",    "comment" : "人物背包数"                                  },
+                {   "field" : "bagNum",                    "type" : "int(32)",         "nullable" : 1,         "default" : "",    "comment" : "混合字段"                                  },
+				{   "field" : "misc",                      "type" : "varchar(1024)",   "nullable" : 1,         "default" : "{}"                                },
+                {   "name"  : "account_name",              "type" : "normal",          "indexs" : "account,name",   "key" : "index"                             }
+            ]
+        },
+        {
+            "name":"map",
+            "fields" : [
+                {   "field" : "mapId",                   "type" : "int(32)",      "comment" : "地图ID" },
+                {   "field" : "accountRid",              "type" : "varchar(12)",  "comment" : "角色rid" },
+                {   "field" : "mapStar",                 "type" : "int(8)",       "comment" : "地图星级" },
+                {   "field" : "mapCompleteTime",         "type" : "int(32)",      "comment" : "地图最短时间" },
+                {   "field" : "mapFinishTimes",          "type" : "int(32)",      "comment" : "地图完成次数" },
+                {   "field" : "mapFirstTime",            "type" : "int(32)",      "comment" : "地图首次通关时间" },
+                {   "field" : "mapCondition1",           "type" : "int(32)",      "comment" : "地图星级条件1" },
+                {   "field" : "mapCondition2",           "type" : "int(32)",      "comment" : "地图星级条件2" },
+                {   "field" : "mapCondition3",           "type" : "int(32)",      "comment" : "地图星级条件3" }
+            ]
+        },
+        {
+            "name":"hero",
+            "fields" : [
+                {   "field"  : "rid",              "type" : "varchar(12)",     "comment" : "rid",     "key" : "PRI"   },
+                {   "field"  : "accountRid",       "type" : "varchar(12)",     "comment" : "账号Rid"                 },
+                {   "field"  : "createTime",       "type" : "int(32)",         "comment" : "创建时间"                 },
+                {   "field"  : "heroId",           "type" : "int(16)",         "comment" : "ID"                      },
+                {   "field"  : "lv",               "type" : "int(16)",         "comment" : "Lv"                      },
+				{   "field"  : "exp",              "type" : "int(16)",         "comment" : "exp"                     },
+                {   "field"  : "start",            "type" : "int(8)",         "comment" : "星级"                     },
+                {   "field"  : "horoscope",        "type" : "int(16)",         "comment" : "星座"                     },
+                {   "field"  : "leader",           "type" : "int(8)",          "comment" : "队长或者副手"              },
+                {   "field"  : "misc",             "type" : "varchar(1024)",   "nullable" : 1,         "default" : "{}"                                },
+                {   "name"   : "accountRid",       "type" : "normal",          "indexs" : "accountRid",   "key" : "index"                             }
+            ]
+        },
+        {
+            "name":"bagitem",
+            "fields" : [
+                {   "field"  : "accountRid",       "type" : "varchar(12)",     "comment" : "英雄rid"                     },
+                {   "field"  : "equipRid",         "type" : "varchar(12)",     "comment" : "装备RID"                      },
+                {   "field"  : "itemPos",          "type" : "int(16)",         "comment" : "存放位置"                     },
+                {   "field"  : "itemid",           "type" : "int(16)",         "comment" : "物品ID"                      },
+                {   "field"  : "itemnum",          "type" : "int(16)",         "comment" : "物品数量"                     },
+                {   "field"  : "misc",             "type" : "varchar(1024)",   "nullable" : 1,         "default" : "{}"                                },
+                {   "name"   : "accountRid",       "type" : "normal",          "indexs" : "accountRid",   "key" : "index"                             }
+            ]
+        },
+        {
+            "name":"equip",
+            "fields" : [
+				{   "field"  : "rid",              "type" : "varchar(12)",     "comment" : "rid" 						  },
+                {   "field"  : "heroRid",          "type" : "varchar(12)",     "comment" : "英雄rid"                      },
+                {   "field"  : "accountRid",       "type" : "varchar(12)",     "comment" : "账号rid"                      },
+                {   "field"  : "itemPos",          "type" : "int(16)",         "comment" : "存放位置"                     },
+                {   "field"  : "itemid",           "type" : "int(16)",         "comment" : "物品ID"                       },
+                {   "field"  : "itemnum",          "type" : "int(16)",         "comment" : "物品数量"                     },
+                {   "field"  : "lv",               "type" : "int(16)",         "comment" : "物品等级"                     },
+				{   "field"  : "qua",              "type" : "int(8)",          "comment" : "把品质也储存 排序用"              },
+				{   "field"  : "exp",              "type" : "int(16)",         "comment" : "物品当前经验"                     },
+                {   "field"  : "misc",             "type" : "varchar(1024)",   "nullable" : 1,         "default" : "{}"                                },
+                {   "name"   : "accountRid",       "type" : "normal",          "indexs" : "accountRid",   "key" : "index"                             }
+            ]
+        },
+        {
+            "name":"skill",
+            "fields" : [
+                {   "field"  : "heroRid",          "type" : "varchar(12)",     "comment" : "英雄rid"                     },
+                {   "field"  : "skillid",          "type" : "int(16)",         "comment" : "物品ID"                      },
+                {   "field"  : "lv",               "type" : "int(16)",         "comment" : "物品等级"                     },
+                {   "field"  : "misc",             "type" : "varchar(1024)",   "nullable" : 1,         "default" : "{}"                                },
+                {   "name"   : "accountRid",       "type" : "normal",          "indexs" : "accountRid",   "key" : "index"                             }
+            ]
+        },
+	    {
+            "name":"shop",
+            "fields" : [
+                {   "field"  : "accountRid",       "type" : "varchar(12)",     "comment" : "账号RID"                     },
+                {   "field"  : "shopId",           "type" : "int(32)",         "comment" : "商城表ID"                      },
+                {   "field"  : "isBuy",            "type" : "int(1)",          "comment" : "是否购买"                     },
+                {   "name"   : "accountRid",       "type" : "normal",          "indexs" : "accountRid",   "key" : "index"                             }
+            ]
+        },
+		{
+            "name":"sevenDayGift",
+            "fields" : [
+                {   "field"  : "accountRid",       "type" : "varchar(12)",     "comment" : "账号RID"                     },
+                {   "field"  : "getGiftCount",     "type" : "int(16)",         "comment" : "七日礼包签到次数"            },
+				{   "field"  : "getGiftLastTime",  "type" : "int(32)",         "comment" : "上回签到时间"                 },
+                {   "name"   : "accountRid",       "type" : "normal",          "indexs" : "accountRid",   "key" : "index"                             }
+            ]
+        },
+        {
+            "name":"dailyInfo",
+            "fields" : [
+                {   "field"  : "accountRid",       "type" : "varchar(12)",     "comment" : "账号RID"                     },
+                {   "field"  : "shopRefreshCount", "type" : "int(16)",         "comment" : "商店手动刷新次数"                    },
+                {   "name"   : "accountRid",       "type" : "normal",          "indexs" : "accountRid",   "key" : "index"                             }
+            ]
+        },
+		{
+            "name":"keyvalue",
+            "fields" : [
+				{   "field"  : "accountRid",       "type" : "varchar(12)",     "comment" : "账号RID"                     },
+				{   "field" : "keyName",              "type" : "varchar(12)" },
+                {   "field" : "keyValue",             "type" : "varchar(12)" },
+				{   "name"   : "accountRid",       "type" : "normal",          "indexs" : "accountRid",   "key" : "index"                             }
+            ]
+        }
+    ]
+}

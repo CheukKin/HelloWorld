@@ -1,0 +1,8 @@
+#速度改变信息							
+#ID	X速度	Y速度	Z速度	X速度是否改变（0代表不改变、1代表改变）	Y速度是否改变（0代表不改变、1代表改变）	Z速度是否改变（0代表不改变、1代表改变）	备注
+int	int	int	int	int	int	int	string
+id	xSpeed	ySpeed	zSpeed	xChange	yChange	zChange	Remarks
+1	0	0	0	1	1	1	绿巨人技能1没有碰到人时倒数第二帧的速度
+2	0	0	4	1	1	1	绿巨人技能1没有碰到人时倒数第二帧的速度
+3	0	0	0	1	1	1	佐助技能3
+4	0	0	0	0	1	1	路飞技能2-1

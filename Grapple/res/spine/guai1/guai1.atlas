@@ -1,0 +1,83 @@
+
+guai1.png
+size: 1024,128
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+gai1-jiannei
+  rotate: true
+  xy: 421, 6
+  size: 40, 83
+  orig: 40, 83
+  offset: 0, 0
+  index: -1
+guai-datuinei
+  rotate: true
+  xy: 545, 46
+  size: 75, 111
+  orig: 75, 111
+  offset: 0, 0
+  index: -1
+guai-jianwai
+  rotate: false
+  xy: 967, 56
+  size: 53, 65
+  orig: 53, 65
+  offset: 0, 0
+  index: -1
+guai1-datuiwai
+  rotate: true
+  xy: 763, 60
+  size: 61, 110
+  orig: 61, 110
+  offset: 0, 0
+  index: -1
+guai1-duzi
+  rotate: true
+  xy: 763, 2
+  size: 56, 69
+  orig: 56, 69
+  offset: 0, 0
+  index: -1
+guai1-jian
+  rotate: false
+  xy: 2, 30
+  size: 159, 91
+  orig: 159, 91
+  offset: 0, 0
+  index: -1
+guai1-jiaonei
+  rotate: true
+  xy: 875, 49
+  size: 72, 90
+  orig: 72, 90
+  offset: 0, 0
+  index: -1
+guai1-jiaowai
+  rotate: true
+  xy: 658, 47
+  size: 74, 103
+  orig: 74, 103
+  offset: 0, 0
+  index: -1
+guai1-neishou
+  rotate: true
+  xy: 312, 33
+  size: 88, 107
+  orig: 88, 107
+  offset: 0, 0
+  index: -1
+guai1-tou
+  rotate: false
+  xy: 163, 26
+  size: 147, 95
+  orig: 147, 95
+  offset: 0, 0
+  index: -1
+guai1-waishou
+  rotate: true
+  xy: 421, 48
+  size: 73, 122
+  orig: 73, 122
+  offset: 0, 0
+  index: -1

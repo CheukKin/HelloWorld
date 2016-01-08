@@ -1,0 +1,13 @@
+
+map_lajitong.png
+size: 128,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+lajitong
+  rotate: false
+  xy: 2, 2
+  size: 103, 188
+  orig: 103, 188
+  offset: 0, 0
+  index: -1

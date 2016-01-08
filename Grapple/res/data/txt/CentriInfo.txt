@@ -1,0 +1,7 @@
+#作用力信息						
+#ID	以角色骨骼基准点为原点的偏倚值	影响高度	中间半径	力的范围（填写像素）	力的大小（正值为内吸力，负值为外推力）	备注
+int	float	float	float	float	float	string
+id	OffsetX	Height	MinRedius	Redius	Force	Remarks
+1	42	0	0	0	0	
+2	42	0	0	0	0	
+3	20	0	0	300	-15000	

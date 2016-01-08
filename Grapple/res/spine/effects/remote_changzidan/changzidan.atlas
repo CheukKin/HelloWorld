@@ -1,0 +1,34 @@
+
+changzidan.png
+size: 256,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+1/changzidan_atk2_00
+  rotate: true
+  xy: 2, 10
+  size: 116, 133
+  orig: 256, 256
+  offset: 66, 61
+  index: -1
+1/changzidan_atk2_01
+  rotate: false
+  xy: 2, 128
+  size: 126, 125
+  orig: 256, 256
+  offset: 64, 70
+  index: -1
+1/changzidan_atk2_02
+  rotate: true
+  xy: 137, 80
+  size: 128, 116
+  orig: 256, 256
+  offset: 66, 79
+  index: -1
+changzidan_00
+  rotate: false
+  xy: 130, 210
+  size: 109, 43
+  orig: 1024, 768
+  offset: 435, 175
+  index: -1

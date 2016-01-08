@@ -1,0 +1,20 @@
+
+readygo.png
+size: 1024,128
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+go
+  rotate: false
+  xy: 360, 2
+  size: 217, 117
+  orig: 217, 117
+  offset: 0, 0
+  index: -1
+ready
+  rotate: false
+  xy: 2, 5
+  size: 356, 114
+  orig: 356, 114
+  offset: 0, 0
+  index: -1

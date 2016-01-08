@@ -1,0 +1,28 @@
+#缘分技能表																
+#id	技能名称	技能ICON	技能等级	技能描述	关联英雄ID	需求英雄ID星级	攻击提升百分比	防御提升百分比	生命提升百分比	命中百分比提升	闪避百分比提升	破防百分比提升	暴击百分比提升	爆抗百分比提升	速度提升百分比（移动动力*百分比）	减伤百分比
+int	string	string	string	string	int	int	string	string	string	string	string	string	string	string	string	string
+id	FateSkillName	SkillIcon	FateSkillLV	SkillInstruction	RelationRoleID	RelationRoleStar	AtkAdd	DefAdd	HPAdd	SpeedAdd	DodgeAdd	AntiBrokenAdd	CriticalAdd	CriticalResistanceAdd	SpeedAdd	DamageReduction
+1	无口刀客	heiyanjineng2		1	7											
+2	女神与汉子	heiyanjineng2		2	8											
+3	鸟枪换炮	heiyanjineng2		3	6											
+4	绝杀御姐	heiyanjineng2		4	5											
+5	雷霆万钧	heiyanjineng2		5	4											
+6	震古烁今	heiyanjineng2		6	3											
+7	绿肥红瘦	heiyanjineng2		7	2											
+8	刚柔相济	heiyanjineng2		8	5											
+9	死亡禁锢	heiyanjineng2		9	1											
+10	长发及腰	heiyanjineng2		10	3											
+11	大叔萝莉	heiyanjineng2		11	8											
+12	重男轻女	heiyanjineng2		12	4											
+13	火冒三丈	heiyanjineng2		13	7											
+14	一男半女	heiyanjineng2		14	6											
+15	拳拳胜E	heiyanjineng2		15	5											
+16	智勇双全	heiyanjineng2		16	4											
+17	爱，莫能助	heiyanjineng2		17	3											
+18	拔刀像助	heiyanjineng2		18	3											
+19	佐又开弓	heiyanjineng2		19	2											
+20	不是鸣人	heiyanjineng2		20	6											
+21	宿敌	heiyanjineng2		21	1											
+22	飞沙走石	heiyanjineng2		22	8											
+23	长臂与猿猴	heiyanjineng2		23	7											
+24	如兄似弟	heiyanjineng2		24	6											

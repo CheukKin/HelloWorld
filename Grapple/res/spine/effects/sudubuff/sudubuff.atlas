@@ -1,0 +1,13 @@
+
+sudubuff.png
+size: 128,128
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+sudubuff
+  rotate: false
+  xy: 2, 2
+  size: 67, 80
+  orig: 71, 84
+  offset: 2, 2
+  index: -1

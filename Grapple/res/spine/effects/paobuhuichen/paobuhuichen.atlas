@@ -1,0 +1,55 @@
+
+paobuhuichen.png
+size: 1024,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+effect/1/skill2_1_00
+  rotate: true
+  xy: 2, 2
+  size: 184, 129
+  orig: 184, 129
+  offset: 0, 0
+  index: -1
+effect/1/skill2_1_01
+  rotate: true
+  xy: 133, 2
+  size: 184, 129
+  orig: 184, 129
+  offset: 0, 0
+  index: -1
+effect/1/skill2_1_02
+  rotate: true
+  xy: 264, 2
+  size: 184, 129
+  orig: 184, 129
+  offset: 0, 0
+  index: -1
+effect/1/skill2_1_03
+  rotate: true
+  xy: 657, 3
+  size: 183, 129
+  orig: 184, 129
+  offset: 0, 0
+  index: -1
+effect/1/skill2_1_04
+  rotate: true
+  xy: 395, 2
+  size: 184, 129
+  orig: 184, 129
+  offset: 0, 0
+  index: -1
+effect/1/skill2_1_05
+  rotate: false
+  xy: 788, 57
+  size: 183, 129
+  orig: 184, 129
+  offset: 0, 0
+  index: -1
+effect/1/skill2_1_06
+  rotate: true
+  xy: 526, 2
+  size: 184, 129
+  orig: 184, 129
+  offset: 0, 0
+  index: -1

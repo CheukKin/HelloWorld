@@ -1,0 +1,1 @@
+NetIndexTools.exe %cd%/../scripts/etc/send.lua

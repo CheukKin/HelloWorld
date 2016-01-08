@@ -1,0 +1,39 @@
+//gate网关，logic逻辑服务器，client客户端
+//消息总类，gate，logic，client，server
+//网关服务器，收到gate，server类型的消息，则进行处理。收到其它消息则进行转发
+//逻辑服务器，收到logic，server类型的消息，则进行处理。其它消息无视
+//客户端，只处理client类型的消息
+//客户端发消息给服务端的通常以cmd为开头
+//服务端发消息给客户端的通常以msg为开头
+
+//0x0001-0x0999为客户端给服务端发的协议 以gate开头
+//0x1001-0x1999客户端或者服务端之间对发均可的协议 以logic开头
+//0x2001-0x2999以上，服务端之间对发的协议 以client开头
+
+gate cmd_internal_auth(int8 type, int16 num, int16 port) = 0x0001;
+gate cmd_auth_account(map arg) = 0x0002;
+gate cmd_login(map login_info) = 0x0003;
+
+logic new_client_init(uint32 port, map data) = 0x1001;
+server lose_client(uint32 port) = 0x1002;
+logic cmd_user_list() = 0x1003;
+client msg_user_list(map[] list) = 0x1004;
+logic cmd_create_user(map info) = 0x1005;
+client msg_create_user(map info) = 0x1006;
+logic cmd_select_user(string rid) = 0x1007;
+client msg_enter_game(map info) = 0x1008;
+logic cmd_seven_gift(map info) = 0x1009;
+client msg_seven_gift(map info) = 0x100A;
+logic cmd_shop_refresh(map info) = 0x100B;
+client msg_shop_refresh(map info) = 0x100C;
+logic cmd_sp_update(map info) = 0x100D;
+client msg_sp_update(map info) = 0x100E;
+
+
+client msg_login_notify_status(int32 status) = 0x2001;
+client msg_me_updated(string rid, map data) = 0x4001;
+
+gate cmd_chat(int32 channel, map int8Info) = 0x5001;
+client msg_chat(string name, string rid, int32 channel, map int8Info) = 0x6001;
+
+server msg_db_result(map[] result) = 0xFFF1;

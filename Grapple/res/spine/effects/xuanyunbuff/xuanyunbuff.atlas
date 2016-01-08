@@ -1,0 +1,48 @@
+
+xuanyunbuff.png
+size: 128,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+1/1/xuanyunbuff_00
+  rotate: true
+  xy: 2, 100
+  size: 101, 37
+  orig: 128, 128
+  offset: 13, 45
+  index: -1
+1/1/xuanyunbuff_01
+  rotate: true
+  xy: 44, 11
+  size: 92, 43
+  orig: 128, 128
+  offset: 17, 40
+  index: -1
+1/1/xuanyunbuff_02
+  rotate: true
+  xy: 2, 2
+  size: 96, 40
+  orig: 128, 128
+  offset: 16, 45
+  index: -1
+1/1/xuanyunbuff_03
+  rotate: false
+  xy: 2, 203
+  size: 96, 43
+  orig: 128, 128
+  offset: 19, 45
+  index: -1
+1/1/xuanyunbuff_04
+  rotate: true
+  xy: 41, 105
+  size: 96, 42
+  orig: 128, 128
+  offset: 16, 41
+  index: -1
+1/1/xuanyunbuff_05
+  rotate: true
+  xy: 85, 124
+  size: 77, 40
+  orig: 128, 128
+  offset: 16, 40
+  index: -1

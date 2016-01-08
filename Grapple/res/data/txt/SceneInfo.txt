@@ -1,0 +1,88 @@
+#地图配置信息																																										
+#场景ID(chapter*100+replicaBar)	场景属性（1家园、2普通副本、3试炼副本）	副本章节	章节名称	副本小节	小节名称	场景地图资源	场景音乐	副本类型备注（0普通副本、1物理试炼、2魔法试炼、3风之试炼、4木之试炼、5火之试炼、6雷之试炼、7冰之试炼）	副本难度备注（1低级、2中级、3高级）	消耗体力	出战人数	怪物1id	怪物2id	宝箱id	经验奖励	金钱奖励	钻石奖励	钻石概率	首次通关奖励类型（1、钻石；2、道具；3、装备）	首次通关奖励数据（1、钻石数量；2、道具ID#道具数量；3、装备ID#装备数量）	最低进入等级	每日限制进入次数	开启时间	关闭时间	背景音乐	限时副本(秒)	星级条件（1通关、2通关时间、3剩余血量、4最大连击数、5陷阱、6是否减员）	星级参数1（1时间、2血量百分比、3连击数量、4陷阱命中次数、5减员数量）	星级参数2（1数量）	星级条件（1通关、2通关时间、3剩余血量、4最大连击数、5陷阱、6是否减员）	星级参数1	星级参数2（1数量）	星级条件（1通关、2通关时间、3剩余血量、4最大连击数、5陷阱、6是否减员）	星级参数1	星级参数2（1数量）	星级条件（1通关、2通关时间、3剩余血量、4最大连击数、5陷阱、6是否减员）	星级参数1（1时间、2血量百分比、3连击数量、4陷阱命中次数、5减员数量）	星级参数2（1数量）	星级条件（1通关、2通关时间、3剩余血量、4最大连击数、5陷阱、6是否减员）	星级参数1（1时间、2血量百分比、3连击数量、4陷阱命中次数、5减员数量）	星级参数2（1数量）	场景介绍
+int	int	int	string	int	string	string	string	int	int	int	int	int	int	int	int	int	int	float	int	string	int	int	string	string	string	float	int	string	int	int	string	int	int	string	int	int	string	int	int	string	int	string
+Id	Type	CopyChapter	CopyName	ReplicaBar	BarName	SceneRes	SceneMusic	CopyType	ReplicaDifficulty	PhysicalNeed	ActorsNum	Monster1Id	Monster2Id	ChestId	Exp	Gold	Diamonds	DiamondProbability	FirstRewardType	FirstRewardNumber	MinLevel	EnterLimit	OpenTime	CloseTime	Music	LimitTime	Condition1	Condition1Param1	Condition1Param2	Condition2	Condition2Param1	Condition2Param2	Condition3	Condition3Param1	Condition3Param2	Condition4	Condition4Param1	Condition4Param2	Condition5	Condition5Param1	Condition5Param2	Describe
+101	2	1	恶魔城	1	恶魔城缘起	gulangyuditu	a_gulangyumusic	0	1	2	1	1		1	10	700	10	25	2	8#1	1				loginScene.mp3	150	1			3	10		2	140		5	1					比加纪204年5月7日；“你为何而来？”黑的岩看向我，而我望向天边：“我啊？也许，是为了找到一个人……”
+102	2	1	恶魔城	2	神秘的刺客	gulangyuditu1	a_gulangyumusic	0	1	2	2	2	1	1	15	760	10	25	3	10001#2	1				loginScene.mp3	150	1			3	10		2	140								比加纪204年5月8日；那些刺客追地我有些狼狈，但还好有黑岩在。我本想问她有关领主的事，但她好像并没有什么兴趣。
+103	2	1	恶魔城	3	领主的护卫	gulangyuditu1	a_gulangyumusic	0	1	2	1	3		1	20	820	10	25	1	20	1				loginScene.mp3	150	1			3	10		2	140								比加纪204年5月16日；我们在街上遇到了一只精灵，他说他也要找到一个人。“我要去的地方叫做密林，我已经离开那里很久了。”他说这话时眼里露着无尽的哀伤
+104	2	1	恶魔城	4	恶魔城霸主	gulangyuditu2	a_gulangyumusic	0	1	2	2	4	5	1	25	880	10	25	1	30	1				loginScene.mp3	150	1			2	145		3	25								比加纪204年5月16日；“正因为如此，才更需要有人能平息战争！”这样的情形让我想起了那年，他也对我说过同样的话。
+105	2	1	恶魔城	5	惊叹或怀疑	gulangyuditu2	a_gulangyumusic	0	1	2	2	6	7	1	30	940	10	25	1	30	1				loginScene.mp3	150	1			3	10		2	140								比加纪204年5月17日；我从黑岩的眼里看到了惊奇，她像是想起了什么。她问我：“你到底是谁？”然而，我只是一个普通人……
+106	2	1	恶魔城	6	剑光下的脸	gulangyuditu3	a_gulangyumusic	0	1	2	2	8	9	1	35	1000	10	25	1	30	1				loginScene.mp3	150	1			2	145		6									比加纪204年5月17日；在最危险的时候，有人救了我们。那个人拿着刀的背影显得有些清瘦，他转头对我们说：“还不快跑！”
+107	2	1	恶魔城	7	隐秘的事情	gulangyuditu3	a_gulangyumusic	0	1	2	2	10	11	1	50	1060	10	25	1	50	1				loginScene.mp3	150	1			2	145		3	25								比加纪204年5月19日；那个老头隐去了一身杀气，坐在阳光中背对着我。“世道要变了啊”他说这句话的时候，我看着窗外破旧的老爷车正出神。
+201	2	2	德克之心	1	又遇狼叔	shamo	a_shamomusic	0	1	2	2	12	13	2	80	1120	10	25	1	20	1				loginScene.mp3	150	1			3	15		2	140								比加纪204年5月19日；那个老头隐去了一身杀气，坐在阳光中背对着我。“世道要变了啊”他说这句话的时候，我看着窗外破旧的老爷车正出神。
+202	2	2	德克之心	2	精灵宝钻	shamo1	a_shamomusic	0	1	2	2	14	15	2	90	1180	10	25	1	20	1				loginScene.mp3	150	1			3	15		6									比加纪204年5月23日；狼叔目光专注地看着我：“既然要阻止战争，总要有些实力吧”，当年领主可是把他们打了个遍呢！
+203	2	2	德克之心	3	夜色酒馆	shamo1	a_shamomusic	0	1	2	2	16	17	2	100	1240	10	25	1	20	1				loginScene.mp3	150	1			2	145		3	25								比加纪204年5月24日；那个程序员好像发现了我身上的一些秘密，但他并没有说什么，只是一遍遍重复着一句话：“领主已经好久都没有出过太阳宫了……”
+204	2	2	德克之心	4	狼叔真面目	shamo2	a_shamomusic	0	1	2	2	18	19	2	110	1300	10	25	1	30	1				loginScene.mp3	150	1			2	145		3	25								比加纪204年5月24日；橘右京迎着夜色，我以为他要吟出一首葬花吟，可是他却自嘲地笑了很久，让人看着莫名有些难过。
+205	2	2	德克之心	5	橘右京其人	shamo2	a_shamomusic	0	1	2	2	20	21	2	120	1360	10	25	1	30	1				loginScene.mp3	150	1			3	15		6									比加纪204年5月25日；狼叔提醒我后面将会遇到更强大的敌人，但我并不害怕：“我可是创世者。”狼叔笑：“这一点要比那个人强多了呢！”
+206	2	2	德克之心	6	最后的失利	shamo3	a_shamomusic	0	1	2	2	22	23	2	130	1420	10	25	1	30	1				loginScene.mp3	150	1			3	15		2	140								比加纪204年5月26日；早就知道橘右京有肺病，但我不知道竟然这样严重。“他总是这样，一点都没有变。”黑岩皱着眉说道。
+207	2	2	德克之心	7	隐藏势力	shamo3	a_shamomusic	0	1	2	2	24	25	2	150	1480	10	25	1	50	1				loginScene.mp3	150	1			2	145		3	25								比加纪204年5月27日；很快就到了决斗的时刻，而我却再次遇到了那个显得高深莫测的老人，他从空中落下，显得高傲而矜持。
+301	2	3	浮空大陆	1	恶灵死神	yechang	a_yechangmusic	0	1	2	1	26		2	160	1540	10	25	1	20	1				loginScene.mp3	150	1			2	145		3	25								比加纪204年5月27日；“我说过要帮小叶子夺回精灵宝钻的，我不会食言！”众人像是被这句话吓到一般，都向我望过来。
+302	2	3	浮空大陆	2	死神的诡计	yechang1	a_yechangmusic	0	1	2	1	27		2	170	1600	10	25	1	20	1				loginScene.mp3	150	1			3	15		2	130								场景介绍
+303	2	3	浮空大陆	3	万磁王之友	yechang1	a_yechangmusic	0	1	2	1	28		2	180	1660	10	25	1	20	1				loginScene.mp3	150	1			3	15		2	130								场景介绍
+304	2	3	浮空大陆	4	偶遇故人	yechang2	a_yechangmusic	0	1	2	2	29	30	2	190	1720	10	25	1	30	1				loginScene.mp3	150	1			2	140		6									场景介绍
+305	2	3	浮空大陆	5	隐藏的秘密	yechang2	a_yechangmusic	0	1	2	2	31	32	2	200	1780	10	25	1	30	1				loginScene.mp3	150	1			2	140		3	30								场景介绍
+306	2	3	浮空大陆	6	信任与伙伴	yechang3	a_yechangmusic	0	1	2	2	33	34	2	210	1840	10	25	1	30	1				loginScene.mp3	150	1			3	20		2	130								场景介绍
+307	2	3	浮空大陆	7	祭坛之战	yechang3	a_yechangmusic	0	1	2	2	35	36	2	220	1900	10	25	1	50	1				loginScene.mp3	150	1			3	20		6									场景介绍
+401	2	4	赤雨十三街	1	守卫雕像的人	huochezhan	a_beijingmusic	0	1	2	2	37	38	3	230	1960	10	25	1	20	1				loginScene.mp3	150	1			2	140		3	30								场景介绍
+402	2	4	赤雨十三街	2	红色的雨	huochezhan1	a_beijingmusic	0	1	2	2	39	40	3	240	2020	10	25	1	20	1				loginScene.mp3	150	1			2	140		3	30								场景介绍
+403	2	4	赤雨十三街	3	真相	huochezhan1	a_beijingmusic	0	1	2	2	41	42	3	250	2080	10	25	1	20	1				loginScene.mp3	150	1			3	20		6									场景介绍
+404	2	4	赤雨十三街	4	恶灵的攻击	huochezhan2	a_beijingmusic	0	1	2	2	43	44	3	260	2140	10	25	1	30	1				loginScene.mp3	150	1			3	20		2	130								场景介绍
+405	2	4	赤雨十三街	5	密林的希望	huochezhan2	a_beijingmusic	0	1	2	2	45	46	3	270	2200	10	25	1	30	1				loginScene.mp3	150	1			2	140		3	30								场景介绍
+406	2	4	赤雨十三街	6	血祭	huochezhan3	a_beijingmusic	0	1	2	2	47	48	3	280	2260	10	25	1	30	1				loginScene.mp3	150	1			2	140		6									场景介绍
+407	2	4	赤雨十三街	7	祭坛之战	huochezhan3	a_beijingmusic	0	1	2	2	49	50	3	290	2320	10	25	1	50	1				loginScene.mp3	150	1			3	20		2	130								场景介绍
+501	2	5	北疆小镇	1	冰雪巨人	gulangyuditu	a_gulangyumusic	0	1	2	1	51		3	320	2380	10	25	1	20	1				loginScene.mp3	150	1			3	20		2	130								场景介绍
+502	2	5	北疆小镇	2	狼叔的背影	gulangyuditu1	a_gulangyumusic	0	1	2	1	52		3	350	2440	10	25	1	20	1				loginScene.mp3	150	1			2	140		3	30								场景介绍
+503	2	5	北疆小镇	3	别样的气息	gulangyuditu1	a_gulangyumusic	0	1	2	1	53		3	380	2500	10	25	1	20	1				loginScene.mp3	150	1			2	140		3	30								场景介绍
+504	2	5	北疆小镇	4	暴风雪	gulangyuditu2	a_gulangyumusic	0	1	2	2	54	55	3	410	2560	10	25	1	30	1				loginScene.mp3	150	1			3	20		2	130								场景介绍
+505	2	5	北疆小镇	5	冰霜山岭	gulangyuditu2	a_gulangyumusic	0	1	2	2	56	57	3	440	2620	10	25	1	30	1				loginScene.mp3	150	1			3	20		6									场景介绍
+506	2	5	北疆小镇	6	幻象	gulangyuditu3	a_gulangyumusic	0	1	2	2	58	59	3	470	2680	10	25	1	30	1				loginScene.mp3	150	1			2	140		3	30								场景介绍
+507	2	5	北疆小镇	7	风之女王	gulangyuditu3	a_gulangyumusic	0	1	2	2	60	61	3	500	2740	10	25	1	50	1				loginScene.mp3	150	1			2	140		3	30								场景介绍
+601	2	6	密林	1	密林的门卫	shamo	a_shamomusic	0	1	2	2	62	63	4	530	2800	10	25	1	20	1				loginScene.mp3	150	1			3	20		6									场景介绍
+602	2	6	密林	2	勇闯密林	shamo1	a_shamomusic	0	1	2	2	64	65	4	560	2860	10	25	1	20	1				loginScene.mp3	150	1			3	20		2	120								场景介绍
+603	2	6	密林	3	巨人森林	shamo1	a_shamomusic	0	1	2	2	66	67	4	590	2920	10	25	1	20	1				loginScene.mp3	150	1			2	135		3	35								场景介绍
+604	2	6	密林	4	巨人的援兵	shamo2	a_shamomusic	0	1	2	2	68	69	4	620	2980	10	25	1	30	1				loginScene.mp3	150	1			2	135		6									场景介绍
+605	2	6	密林	5	精灵王	shamo2	a_shamomusic	0	1	2	2	70	71	4	650	3040	10	25	1	30	1				loginScene.mp3	150	1			3	25		2	120								场景介绍
+606	2	6	密林	6	勇士如何炼成	shamo3	a_shamomusic	0	1	2	2	72	73	4	680	3100	10	25	1	30	1				loginScene.mp3	150	1			3	25		6	35								场景介绍
+607	2	6	密林	7	归还不是懦弱	shamo3	a_shamomusic	0	1	2	2	74	75	4	710	3160	10	25	1	50	1				loginScene.mp3	150	1			2	135		6									场景介绍
+701	2	7	南荒沙地	1	隐魔	yechang	a_yechangmusic	0	1	2	1	76		4	740	3220	10	25	1	20	1				loginScene.mp3	150	1			2	135		3	35								场景介绍
+702	2	7	南荒沙地	2	勇士而非拳师	yechang1	a_yechangmusic	0	1	2	1	77		4	770	3280	10	25	1	20	1				loginScene.mp3	150	1			3	25		2	120								场景介绍
+703	2	7	南荒沙地	3	圆月湾	yechang1	a_yechangmusic	0	1	2	1	78		4	800	3340	10	25	1	20	1				loginScene.mp3	150	1			3	25		2	120								场景介绍
+704	2	7	南荒沙地	4	草丛中的老人	yechang2	a_yechangmusic	0	1	2	2	79	80	4	830	3400	10	25	1	30	1				loginScene.mp3	150	1			2	135		6									场景介绍
+705	2	7	南荒沙地	5	奇怪的外邦人	yechang2	a_yechangmusic	0	1	2	2	81	82	4	860	3460	10	25	1	30	1				loginScene.mp3	150	1			2	135		3	35								场景介绍
+706	2	7	南荒沙地	6	艾利查卡多	yechang3	a_yechangmusic	0	1	2	2	83	84	4	890	3520	10	25	1	30	1				loginScene.mp3	150	1			3	25		6									场景介绍
+707	2	7	南荒沙地	7	灵媒	yechang3	a_yechangmusic	0	1	2	2	85	86	4	920	3580	10	25	1	50	1				loginScene.mp3	150	1			3	25		2	120								场景介绍
+801	2	8	巨人峡谷	1	沉默的巨人	huochezhan	a_beijingmusic	0	2	2	2	87	88	5	950	3640	10	25	1	20	1				loginScene.mp3	150	1			2	135		3	35								场景介绍
+802	2	8	巨人峡谷	2	有关始祖之战	huochezhan1	a_beijingmusic	0	2	2	2	89	90	5	980	3700	10	25	1	20	1				loginScene.mp3	150	1			2	135		6									场景介绍
+803	2	8	巨人峡谷	3	力量，战争	huochezhan1	a_beijingmusic	0	2	2	2	91	92	5	1010	3760	10	25	1	20	1				loginScene.mp3	150	1			3	25		2	120								场景介绍
+804	2	8	巨人峡谷	4	源泉尽头	huochezhan2	a_beijingmusic	0	2	2	2	93	94	5	1040	3820	10	25	1	30	1				loginScene.mp3	150	1			3	25		2	120								场景介绍
+805	2	8	巨人峡谷	5	巨龙	huochezhan2	a_beijingmusic	0	2	2	2	95	96	5	1070	3880	10	25	1	30	1				loginScene.mp3	150	1			2	135		6									场景介绍
+806	2	8	巨人峡谷	6	石中剑	huochezhan3	a_beijingmusic	0	2	2	2	97	98	5	1100	3940	10	25	1	30	1				loginScene.mp3	150	1			2	135		3	35								场景介绍
+807	2	8	巨人峡谷	7	勇士的意志	huochezhan3	a_beijingmusic	0	2	2	2	99	100	5	1130	4000	10	25	1	50	1				loginScene.mp3	150	1			3	25		2	120								场景介绍
+901	2	9	幻隐城	1	占卜师	gulangyuditu	a_gulangyumusic	0	2	2	1	101		5	1160	4060	10	25	1	20	1				loginScene.mp3	150	1			3	25		2	120								场景介绍
+902	2	9	幻隐城	2	月夜	gulangyuditu1	a_gulangyumusic	0	2	2	1	102		5	1190	4120	10	25	1	20	1				loginScene.mp3	150	1			2	135		3	35								场景介绍
+903	2	9	幻隐城	3	小丑的游乐园	gulangyuditu1	a_gulangyumusic	0	2	2	1	103		5	1220	4180	10	25	1	20	1				loginScene.mp3	150	1			2	135		3	35								场景介绍
+904	2	9	幻隐城	4	哈哈镜	gulangyuditu2	a_gulangyumusic	0	2	2	2	104	105	5	1250	4240	10	25	1	30	1				loginScene.mp3	150	1			3	25		6									场景介绍
+905	2	9	幻隐城	5	傀儡木马	gulangyuditu2	a_gulangyumusic	0	2	2	2	106	107	5	1280	4300	10	25	1	30	1				loginScene.mp3	150	1			3	25		2	110								场景介绍
+906	2	9	幻隐城	6	熟悉的眼睛	gulangyuditu3	a_gulangyumusic	0	2	2	2	108	109	5	1310	4360	10	25	1	30	1				loginScene.mp3	150	1			2	130		3	40								场景介绍
+907	2	9	幻隐城	7	北天杀神	gulangyuditu3	a_gulangyumusic	0	2	2	2	110	111	5	1340	4420	10	25	1	50	1				loginScene.mp3	150	1			2	130		6									场景介绍
+1001	2	10	古战场	1	免战碑	shamo	a_shamomusic	0	2	2	2	112	113	6	1370	4480	10	25	1	20	1				loginScene.mp3	150	1			3	30		2	110								场景介绍
+1002	2	10	古战场	2	不变的是记忆	shamo1	a_shamomusic	0	2	2	2	114	115	6	1400	4540	10	25	1	20	1				loginScene.mp3	150	1			3	30		2	110								场景介绍
+1003	2	10	古战场	3	葬魂曲	shamo1	a_shamomusic	0	2	2	2	116	117	6	1430	4600	10	25	1	20	1				loginScene.mp3	150	1			2	130		6									场景介绍
+1004	2	10	古战场	4	腐草荧光	shamo2	a_shamomusic	0	2	2	2	118	119	6	1460	4660	10	25	1	30	1				loginScene.mp3	150	1			2	130		3	40								场景介绍
+1005	2	10	古战场	5	遥远的白花	shamo2	a_shamomusic	0	2	2	2	120	121	6	1490	4720	10	25	1	30	1				loginScene.mp3	150	1			3	30		2	110								场景介绍
+1006	2	10	古战场	6	双面人	shamo3	a_shamomusic	0	2	2	2	122	123	6	1520	4780	10	25	1	30	1				loginScene.mp3	150	1			3	30		6									场景介绍
+1007	2	10	古战场	7	禁厌封印	shamo3	a_shamomusic	0	2	2	2	124	125	6	1550	4840	10	25	1	50	1				loginScene.mp3	150	1			2	130		3	40								场景介绍
+1101	2	11	海石神殿	1	寄居蟹的床	yechang	a_yechangmusic	0	3	2	1	126		7	1580	4900	10	25	1	20	1				loginScene.mp3	150	1			2	130		3	40								场景介绍
+1102	2	11	海石神殿	2	神的右边	yechang1	a_yechangmusic	0	3	2	1	127		7	1610	4960	10	25	1	20	1				loginScene.mp3	150	1			3	30		2	100								场景介绍
+1103	2	11	海石神殿	3	暗流	yechang1	a_yechangmusic	0	3	2	1	128		7	1640	5020	10	25	1	20	1				loginScene.mp3	150	1			3	30		2	110								场景介绍
+1104	2	11	海石神殿	4	天黑，请闭眼	yechang2	a_yechangmusic	0	3	2	2	129	130	7	1670	5080	10	25	1	30	1				loginScene.mp3	150	1			2	130		3	40								场景介绍
+1105	2	11	海石神殿	5	智者的预言	yechang2	a_yechangmusic	0	3	2	2	131	132	7	1700	5140	10	25	1	30	1				loginScene.mp3	150	1			2	130		6									场景介绍
+1106	2	11	海石神殿	6	小泥人	yechang3	a_yechangmusic	0	3	2	2	133	134	7	1730	5200	10	25	1	30	1				loginScene.mp3	150	1			3	30		2	110								场景介绍
+1107	2	11	海石神殿	7	坚持并坚信	yechang3	a_yechangmusic	0	3	2	2	135	136	7	1760	5260	10	25	1	50	1				loginScene.mp3	150	1			3	30		2	110								场景介绍
+1201	2	12	千步阶	1	第一步	huochezhan	a_beijingmusic	0	3	2	2	137	138	8	1790	5320	10	25	1	20	1				loginScene.mp3	150	1			2	130		6									场景介绍
+1202	2	12	千步阶	2	心念如一	huochezhan1	a_beijingmusic	0	3	2	2	139	140	8	1820	5380	10	25	1	20	1				loginScene.mp3	150	1			2	130		3	40								场景介绍
+1203	2	12	千步阶	3	责任	huochezhan1	a_beijingmusic	0	3	2	2	141	142	8	1850	5440	10	25	1	20	1				loginScene.mp3	150	1			3	30		2	110								场景介绍
+1204	2	12	千步阶	4	远行	huochezhan2	a_beijingmusic	0	3	2	2	143	144	8	1880	5500	10	25	1	30	1				loginScene.mp3	150	1			3	30		6									场景介绍
+1205	2	12	千步阶	5	太阳宫	huochezhan2	a_beijingmusic	0	3	2	2	145	146	8	1910	5560	10	25	1	30	1				loginScene.mp3	150	1			2	130		3	40								场景介绍
+1206	2	12	千步阶	6	离王座的距离	huochezhan3	a_beijingmusic	0	3	2	2	147	148	8	1940	5620	10	25	1	30	1				loginScene.mp3	150	1			2	110		3	50								场景介绍
+1207	2	12	千步阶	7	以战止战	huochezhan3	a_beijingmusic	0	3	2	2	149	150	8	1970	5680	10	25	1	50	1				loginScene.mp3	150	1			3	40		6									场景介绍

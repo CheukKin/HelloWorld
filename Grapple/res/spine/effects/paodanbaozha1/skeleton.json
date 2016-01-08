@@ -1,0 +1,132 @@
+{
+"skeleton": { "hash": "gnATXDGtOReVo2xMhBeLqtFVHIs", "spine": "2.1.27", "width": 768, "height": 768, "images": "./effect/" },
+"bones": [
+	{ "name": "root" },
+	{ "name": "bone", "parent": "root", "scaleX": 1.5, "scaleY": 1.5 }
+],
+"slots": [
+	{ "name": "1/paodanbaozha1_00", "bone": "bone", "attachment": "1/paodanbaozha1_00" },
+	{ "name": "1/paodanbaozha1_01", "bone": "bone", "attachment": "1/paodanbaozha1_01" },
+	{ "name": "1/paodanbaozha1_02", "bone": "bone", "attachment": "1/paodanbaozha1_02" },
+	{ "name": "1/paodanbaozha1_03", "bone": "bone", "attachment": "1/paodanbaozha1_03" },
+	{ "name": "1/paodanbaozha1_04", "bone": "bone", "attachment": "1/paodanbaozha1_04" },
+	{ "name": "1/paodanbaozha1_05", "bone": "bone", "attachment": "1/paodanbaozha1_05" }
+],
+"skins": {
+	"default": {
+		"1/paodanbaozha1_00": {
+			"1/paodanbaozha1_00": { "width": 512, "height": 512 }
+		},
+		"1/paodanbaozha1_01": {
+			"1/paodanbaozha1_01": { "width": 512, "height": 512 }
+		},
+		"1/paodanbaozha1_02": {
+			"1/paodanbaozha1_02": { "width": 512, "height": 512 }
+		},
+		"1/paodanbaozha1_03": {
+			"1/paodanbaozha1_03": { "width": 512, "height": 512 }
+		},
+		"1/paodanbaozha1_04": {
+			"1/paodanbaozha1_04": { "width": 512, "height": 512 }
+		},
+		"1/paodanbaozha1_05": {
+			"1/paodanbaozha1_05": { "width": 512, "height": 512 }
+		}
+	}
+},
+"animations": {
+	"animation": {
+		"slots": {
+			"1/paodanbaozha1_00": {
+				"attachment": [
+					{ "time": 0, "name": "1/paodanbaozha1_00" },
+					{ "time": 0.5333, "name": "1/paodanbaozha1_00" }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 0.0666, "color": "ffffffff" },
+					{ "time": 0.1, "color": "ffffff00" }
+				]
+			},
+			"1/paodanbaozha1_01": {
+				"attachment": [
+					{ "time": 0, "name": "1/paodanbaozha1_01" },
+					{ "time": 0.5333, "name": "1/paodanbaozha1_01" }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffff00", "curve": "stepped" },
+					{ "time": 0.0666, "color": "ffffff00" },
+					{ "time": 0.1, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 0.1666, "color": "ffffffff" },
+					{ "time": 0.2, "color": "ffffff00" }
+				]
+			},
+			"1/paodanbaozha1_02": {
+				"attachment": [
+					{ "time": 0, "name": "1/paodanbaozha1_02" },
+					{ "time": 0.5333, "name": "1/paodanbaozha1_02" }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffff00", "curve": "stepped" },
+					{ "time": 0.1666, "color": "ffffff00" },
+					{ "time": 0.2, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 0.2666, "color": "ffffffff" },
+					{ "time": 0.3, "color": "ffffff00" }
+				]
+			},
+			"1/paodanbaozha1_03": {
+				"attachment": [
+					{ "time": 0, "name": "1/paodanbaozha1_03" },
+					{ "time": 0.5333, "name": "1/paodanbaozha1_03" }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffff00", "curve": "stepped" },
+					{ "time": 0.2333, "color": "ffffff00" },
+					{ "time": 0.2666, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 0.3333, "color": "ffffffff" },
+					{ "time": 0.3666, "color": "ffffff00" }
+				]
+			},
+			"1/paodanbaozha1_04": {
+				"attachment": [
+					{ "time": 0, "name": "1/paodanbaozha1_04" },
+					{ "time": 0.5333, "name": "1/paodanbaozha1_04" }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffff00", "curve": "stepped" },
+					{ "time": 0.3, "color": "ffffff00" },
+					{ "time": 0.3333, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 0.4, "color": "ffffffff" },
+					{ "time": 0.4333, "color": "ffffff00" }
+				]
+			},
+			"1/paodanbaozha1_05": {
+				"attachment": [
+					{ "time": 0, "name": "1/paodanbaozha1_05" },
+					{ "time": 0.5333, "name": "1/paodanbaozha1_05" }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffff00", "curve": "stepped" },
+					{ "time": 0.4, "color": "ffffff00" },
+					{ "time": 0.4333, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 0.5, "color": "ffffffff" },
+					{ "time": 0.5333, "color": "ffffff00" }
+				]
+			}
+		},
+		"bones": {
+			"bone": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			}
+		}
+	}
+}
+}

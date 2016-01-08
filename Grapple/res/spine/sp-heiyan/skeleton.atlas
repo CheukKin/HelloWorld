@@ -1,0 +1,251 @@
+
+skeleton.png
+size: 1024,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+biaoqing/heiyan-tou
+  rotate: false
+  xy: 413, 277
+  size: 55, 58
+  orig: 57, 72
+  offset: 1, 1
+  index: -1
+biaoqing/hybq-1
+  rotate: false
+  xy: 403, 216
+  size: 55, 59
+  orig: 57, 72
+  offset: 1, 0
+  index: -1
+biaoqing/hybq-2
+  rotate: false
+  xy: 883, 391
+  size: 55, 59
+  orig: 57, 72
+  offset: 1, 0
+  index: -1
+biaoqing/hybq-3
+  rotate: true
+  xy: 282, 143
+  size: 56, 59
+  orig: 57, 72
+  offset: 0, 0
+  index: -1
+biaoqing/hybq-4
+  rotate: false
+  xy: 343, 147
+  size: 56, 59
+  orig: 57, 72
+  offset: 0, 0
+  index: -1
+biaoqing/hybq-5
+  rotate: false
+  xy: 940, 399
+  size: 55, 58
+  orig: 57, 72
+  offset: 1, 1
+  index: -1
+biaoqing/hybq-6
+  rotate: true
+  xy: 468, 372
+  size: 56, 67
+  orig: 57, 72
+  offset: 1, 0
+  index: -1
+cheimian/heiyan-tou
+  rotate: true
+  xy: 651, 408
+  size: 58, 62
+  orig: 58, 62
+  offset: 0, 0
+  index: -1
+cheimian/heiyan-waitui
+  rotate: true
+  xy: 722, 463
+  size: 47, 104
+  orig: 47, 104
+  offset: 0, 0
+  index: -1
+cheimian/heiyance-changfa
+  rotate: true
+  xy: 543, 468
+  size: 42, 177
+  orig: 42, 177
+  offset: 0, 0
+  index: -1
+cheimian/heiyance-neishoubi
+  rotate: false
+  xy: 289, 201
+  size: 51, 80
+  orig: 51, 80
+  offset: 0, 0
+  index: -1
+cheimian/heiyance-neitui
+  rotate: true
+  xy: 798, 408
+  size: 42, 83
+  orig: 43, 83
+  offset: 1, 0
+  index: -1
+cheimian/heiyance-shangyi
+  rotate: false
+  xy: 109, 133
+  size: 95, 133
+  orig: 95, 133
+  offset: 0, 0
+  index: -1
+cheimian/heiyance-toufa
+  rotate: false
+  xy: 206, 205
+  size: 81, 76
+  orig: 81, 76
+  offset: 0, 0
+  index: -1
+cheimian/heiyance-waishoubi
+  rotate: true
+  xy: 206, 142
+  size: 61, 74
+  orig: 61, 74
+  offset: 0, 0
+  index: -1
+heiyan-changpao
+  rotate: false
+  xy: 2, 429
+  size: 315, 81
+  orig: 319, 85
+  offset: 2, 2
+  index: -1
+heiyan-dao
+  rotate: false
+  xy: 2, 347
+  size: 222, 80
+  orig: 222, 80
+  offset: 0, 0
+  index: -1
+heiyan-dao-1
+  rotate: false
+  xy: 319, 430
+  size: 222, 80
+  orig: 222, 80
+  offset: 0, 0
+  index: -1
+heiyan-duanpao
+  rotate: false
+  xy: 2, 268
+  size: 195, 77
+  orig: 195, 77
+  offset: 0, 0
+  index: -1
+heiyan-houpao
+  rotate: true
+  xy: 242, 53
+  size: 87, 36
+  orig: 87, 36
+  offset: 0, 0
+  index: -1
+heiyan-shang
+  rotate: true
+  xy: 931, 459
+  size: 51, 85
+  orig: 51, 85
+  offset: 0, 0
+  index: -1
+heiyan-toufa
+  rotate: false
+  xy: 2, 17
+  size: 85, 83
+  orig: 85, 83
+  offset: 0, 0
+  index: -1
+heiyan-youfa
+  rotate: false
+  xy: 2, 102
+  size: 105, 164
+  orig: 105, 164
+  offset: 0, 0
+  index: -1
+heiyan-youshang
+  rotate: true
+  xy: 351, 370
+  size: 58, 115
+  orig: 58, 115
+  offset: 0, 0
+  index: -1
+heiyan-youshou
+  rotate: true
+  xy: 715, 407
+  size: 54, 81
+  orig: 54, 81
+  offset: 0, 0
+  index: -1
+heiyan-youtui
+  rotate: true
+  xy: 316, 285
+  size: 50, 95
+  orig: 50, 95
+  offset: 0, 0
+  index: -1
+heiyan-zuofa
+  rotate: true
+  xy: 226, 347
+  size: 80, 123
+  orig: 80, 123
+  offset: 0, 0
+  index: -1
+heiyan-zuoshang
+  rotate: true
+  xy: 199, 283
+  size: 62, 115
+  orig: 62, 115
+  offset: 0, 0
+  index: -1
+heiyan-zuoshou
+  rotate: false
+  xy: 342, 208
+  size: 59, 75
+  orig: 59, 75
+  offset: 0, 0
+  index: -1
+heiyan-zuotui
+  rotate: true
+  xy: 351, 337
+  size: 31, 103
+  orig: 31, 103
+  offset: 0, 0
+  index: -1
+zhenchei/heiyan-ceshenti
+  rotate: false
+  xy: 194, 37
+  size: 46, 94
+  orig: 46, 94
+  offset: 0, 0
+  index: -1
+zhenchei/heiyan-waitao
+  rotate: false
+  xy: 109, 2
+  size: 83, 129
+  orig: 83, 130
+  offset: 0, 0
+  index: -1
+zhenchei/heiyan-waitaoli
+  rotate: true
+  xy: 543, 427
+  size: 39, 106
+  orig: 39, 106
+  offset: 0, 0
+  index: -1
+zhenchei/heiyance-tuinei
+  rotate: true
+  xy: 537, 374
+  size: 51, 99
+  orig: 51, 99
+  offset: 0, 0
+  index: -1
+zhenchei/heiyance-tuiwai
+  rotate: true
+  xy: 828, 452
+  size: 58, 101
+  orig: 58, 102
+  offset: 0, 0
+  index: -1
